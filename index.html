@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Class 2 English Olympiad Prep</title>
+    <style>
+        body { font-family: sans-serif; display: flex; margin: 0; height: 100vh; }
+        #sidebar { width: 250px; background: #f4f4f4; padding: 20px; border-right: 1px solid #ccc; display: none;height: 100vh;overflow-y: auto; }
+        #main { flex-grow: 1; padding: 40px; text-align: center; }
+        .hidden { display: none; }
+        .btn { display: block; width: 100%; padding: 10px; margin-bottom: 5px; cursor: pointer; border: none; background: #007bff; color: white; border-radius: 5px; }
+        .tab-btn { padding: 10px 20px; cursor: pointer; background: #ddd; border: none; }
+        .active-level { background: #333 !important; color: white !important; }
+        #quiz-area { border: 1px solid #ddd; padding: 20px; border-radius: 8px; margin-top: 20px; display: none; }
+        .opt-btn { font-size: 18px; display: block; width: 100%; padding: 12px; margin: 8px 0; cursor: pointer; background: #f8f9fa; border: 1px solid #ccc; text-align: left; }
+        .correct { background: #28a745 !important; color: white; animation: blink 0.8s infinite; }
+        @keyframes blink { 50% { opacity: 0.5; } }
+    </style>
+</head>
+<body>
+
+<div id="sidebar">
+    <h3>Topics</h3>
+    <script>
+        const topics = ["Spelling", "Number, Gender and Animal world", "Synonyms and Antonyms", "Nouns", "Pronouns", "Verbs", "Adjectives", "Adverbs", "Articles", "Prepositions", "Conjunctions", "Tenses", "Contractions and Jumbled Words; Punctuation", "Spoken and Written Expression"];
+        topics.forEach(t => document.write(`<button class="btn" onclick="selectTopic('${t}')">${t}</button>`));
+    </script>
+</div>
+
+<div id="main">
+    <div id="start-screen">
+        <h1>English Olympiad Prep</h1>
+        <button class="btn" onclick="startQuiz()">Start Quiz</button>
+    </div>
+
+    <div id="quiz-ui" class="hidden">
+        <button onclick="toggleMute()">Mute/Unmute Music</button>
+        <div style="margin: 20px 0;">
+            <button id="basic" class="tab-btn active-level" onclick="selectLevel('basic')">Basic</button>
+            <button id="advanced" class="tab-btn" onclick="selectLevel('advanced')">Advanced</button>
+        </div>
+        <div id="score-board">Total: 30 | Score: 0</div>
+        <div id="quiz-area">
+            <p id="question" style="font-size: 22px;"></p>
+            <div id="options-container"></div>
+        </div>
+    </div>
+</div>
+
+<audio id="bgm" src="background.mp3" loop></audio>
+
+<script>
+    let score = 0, currentLevel = 'basic', currentTopic = 'Spelling', answered = false;
+
+    const data = {
+        'Spelling': { 'basic': { q: "Correct spelling of 'Appel'?", options: ["Apple", "Appel", "Aple", "Apel"], correct: 0 }, 'advanced': { q: "Correct spelling:", options: ["Beutiful", "Beautiful", "Beautifull", "Beutyful"], correct: 1 } },
+        'Number, Gender and Animal world': { 'basic': { q: "Plural of 'Boy'?", options: ["Boies", "Boys", "Boyes", "Boyz"], correct: 1 }, 'advanced': { q: "Young one of a Kangaroo?", options: ["Cub", "Joey", "Pup", "Kid"], correct: 1 } },
+        'Synonyms and Antonyms': { 'basic': { q: "Antonym of 'Hot'?", options: ["Warm", "Cold", "Big", "Sun"], correct: 1 }, 'advanced': { q: "Synonym of 'Silent'?", options: ["Quiet", "Noisy", "Fast", "Slow"], correct: 0 } },
+        'Nouns': { 'basic': { q: "Which is a place?", options: ["School", "Eat", "Red", "Run"], correct: 0 }, 'advanced': { q: "Collective noun for keys?", options: ["Group", "Bunch", "Pack", "Herd"], correct: 1 } },
+        'Pronouns': { 'basic': { q: "Replace 'John' with?", options: ["He", "She", "It", "They"], correct: 0 }, 'advanced': { q: "Which is a reflexive pronoun?", options: ["Him", "Themselves", "Their", "Us"], correct: 1 } },
+        'Verbs': { 'basic': { q: "Action in 'I sit'?", options: ["I", "Sit", "Fast", "None"], correct: 1 }, 'advanced': { q: "Past tense of 'go'?", options: ["Goes", "Gone", "Went", "Goed"], correct: 2 } },
+        'Adjectives': { 'basic': { q: "Opposite of small?", options: ["Big", "Red", "Sad", "Fast"], correct: 0 }, 'advanced': { q: "Which describes a quality?", options: ["Run", "Brave", "Table", "In"], correct: 1 } },
+        'Adverbs': { 'basic': { q: "How does he walk? (Slowly)", options: ["Slowly", "Slow", "Run", "Fast"], correct: 0 }, 'advanced': { q: "Which is an adverb?", options: ["Quick", "Quickly", "Fastest", "Speed"], correct: 1 } },
+        'Articles': { 'basic': { q: "I have ___ apple.", options: ["a", "an", "the", "in"], correct: 1 }, 'advanced': { q: "___ Earth orbits the Sun.", options: ["A", "An", "The", "No article"], correct: 2 } },
+        'Prepositions': { 'basic': { q: "The book is ___ the table.", options: ["in", "on", "at", "to"], correct: 1 }, 'advanced': { q: "He jumped ___ the river.", options: ["into", "on", "at", "by"], correct: 0 } },
+        'Conjunctions': { 'basic': { q: "I like tea ___ coffee.", options: ["and", "but", "or", "so"], correct: 0 }, 'advanced': { q: "He studied hard ___ he failed.", options: ["but", "or", "and", "so"], correct: 0 } },
+        'Tenses': { 'basic': { q: "I ___ playing now.", options: ["am", "is", "are", "was"], correct: 0 }, 'advanced': { q: "They ___ home tomorrow.", options: ["will go", "go", "went", "gone"], correct: 0 } },
+        'Contractions and Jumbled Words; Punctuation': { 'basic': { q: "I am = ?", options: ["Im", "I'm", "I ams", "My"], correct: 1 }, 'advanced': { q: "Unscramble: K O O B", options: ["Book", "Kobo", "Bok", "Obo"], correct: 0 } },
+        'Spoken and Written Expression': { 'basic': { q: "How to greet someone?", options: ["Hello", "Bye", "Run", "Eat"], correct: 0 }, 'advanced': { q: "What do you say when you leave?", options: ["Hello", "Goodbye", "Hi", "Yes"], correct: 1 } }
+    };
+
+    function startQuiz() {
+        document.getElementById('start-screen').style.display = 'none';
+        document.getElementById('sidebar').style.display = 'block';
+        document.getElementById('quiz-ui').style.display = 'block';
+        document.getElementById('quiz-area').style.display = 'block';
+        document.getElementById('bgm').play();
+        selectTopic('Spelling');
+    }
+
+    function toggleMute() { document.getElementById('bgm').muted = !document.getElementById('bgm').muted; }
+
+    function selectLevel(lvl) {
+        currentLevel = lvl;
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active-level'));
+        document.getElementById(lvl).classList.add('active-level');
+        loadQuestion();
+    }
+
+    function selectTopic(t) { currentTopic = t; loadQuestion(); }
+    
+    function loadQuestion() {
+        answered = false;
+        let d = data[currentTopic][currentLevel];
+        document.getElementById('question').innerText = d.q;
+        let cont = document.getElementById('options-container');
+        cont.innerHTML = '';
+        d.options.forEach((opt, i) => {
+            let btn = document.createElement('button');
+            btn.className = 'opt-btn';
+            btn.innerText = opt;
+            btn.onclick = () => { if(!answered) check(btn, i === d.correct); };
+            cont.appendChild(btn);
+        });
+    }
+
+    function check(btn, isCorrect) {
+        if(answered) return;
+        answered = true;
+        let correctIdx = data[currentTopic][currentLevel].correct;
+        document.getElementsByClassName('opt-btn')[correctIdx].classList.add('correct');
+        
+        let correctText = data[currentTopic][currentLevel].options[correctIdx];
+        window.speechSynthesis.speak(new SpeechSynthesisUtterance("The correct answer is " + correctText));
+
+        if(isCorrect) {
+            score++;
+            document.getElementById('score-board').innerText = "Total: 30 | Score: " + score;
+        } else {
+            btn.style.background = "#dc3545";
+            btn.style.color = "white";
+        }
+    }
+</script>
+</body>
+</html>
