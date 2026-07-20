@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Class 2 English Olympiad Prep</title>
+    <style>
+        body { font-family: sans-serif; display: flex; margin: 0; height: 100vh; }
+        #sidebar { width: 250px; background: #f4f4f4; padding: 20px; border-right: 1px solid #ccc; display: none; height: 100vh; overflow-y: auto; }
+        #main { flex-grow: 1; padding: 40px; text-align: center; }
+        .hidden { display: none; }
+        .btn { display: block; width: 100%; padding: 10px; margin-bottom: 5px; cursor: pointer; border: none; background: #007bff; color: white; border-radius: 5px; }
+        .tab-btn { padding: 10px 20px; cursor: pointer; background: #ddd; border: none; }
+        .active-level { background: #333 !important; color: white !important; }
+        .opt-btn { font-size: 18px; display: block; width: 100%; padding: 12px; margin: 8px 0; cursor: pointer; background: #f8f9fa; border: 1px solid #ccc; text-align: left; }
+        .correct { background: #28a745 !important; color: white; }
+        .nav-btn { padding: 10px 20px; margin: 20px 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+<div id="sidebar">
+    <h3>Topics</h3>
+    <div id="topic-container"></div>
+</div>
+
+<div id="main">
+    <div id="start-screen">
+        <h1>English Olympiad Prep</h1>
+        <button class="btn" onclick="startQuiz()">Start Quiz</button>
+    </div>
+
+    <div id="quiz-ui" class="hidden">
+        <button onclick="toggleMute()">Mute/Unmute Music</button>
+        <div style="margin: 20px 0;">
+            <button id="basic" class="tab-btn active-level" onclick="selectLevel('basic')">Basic</button>
+            <button id="advanced" class="tab-btn" onclick="selectLevel('advanced')">Advanced</button>
+        </div>
+        <div id="score-board">Score: 0</div>
+        <div id="quiz-area">
+            <p id="question" style="font-size: 22px;"></p>
+            <div id="options-container"></div>
+        </div>
+        <div>
+            <button class="nav-btn" onclick="prevQuestion()">Previous</button>
+            <button class="nav-btn" onclick="nextQuestion()">Next</button>
+        </div>
+    </div>
+</div>
+
+<audio id="bgm" src="background.mp3" loop></audio>
+
+<script>
+    let score = 0, currentLevel = 'basic', currentTopic = '', answered = false, currentData = {}, currentQ = 0;
+    const topics = [
+    "Spelling", 
+    "Number, Gender and Animal world", 
+    "Synonyms and Antonyms", 
+    "Nouns", 
+    "Pronouns", 
+    "Verbs", 
+    "Adjectives", 
+    "Adverbs", 
+    "Articles", 
+    "Prepositions", 
+    "Conjunctions", 
+    "Tenses", 
+    "Contractions and Jumbled Words; Punctuation", 
+    "Spoken and Written Expression"
+]; // Add all 14 names here
+
+    const container = document.getElementById('topic-container');
+    topics.forEach(t => {
+        let b = document.createElement('button');
+        b.className = 'btn'; b.innerText = t;
+        b.onclick = () => selectTopic(t);
+        container.appendChild(b);
+    });
+
+    function startQuiz() {
+        document.getElementById('start-screen').style.display = 'none';
+        document.getElementById('sidebar').style.display = 'block';
+        document.getElementById('quiz-ui').style.display = 'block';
+        document.getElementById('bgm').play();
+        selectTopic('Spelling');
+    }
+
+    function toggleMute() { document.getElementById('bgm').muted = !document.getElementById('bgm').muted; }
+
+    function selectLevel(lvl) {
+        currentLevel = lvl;
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active-level'));
+        document.getElementById(lvl).classList.add('active-level');
+        currentQ = 0; loadQuestion();
+    }
+
+    async function selectTopic(topicName) {
+        currentTopic = topicName; currentQ = 0;
+        const fileName = topicName.toLowerCase().replace(/ /g, "_").replace(/,/g, "").replace(/;/g, "") + ".json";
+        try {
+            const res = await fetch(`data/${fileName}`);
+            currentData = await res.json();
+            loadQuestion();
+        } catch (e) { document.getElementById('question').innerText = "Topic data not found: " + fileName; }
+    }
+
+    function loadQuestion() {
+        if (!currentData[currentLevel]) return;
+        answered = false;
+        let d = currentData[currentLevel][currentQ];
+        document.getElementById('question').innerText = d.q;
+        let cont = document.getElementById('options-container'); cont.innerHTML = '';
+        d.options.forEach((opt, i) => {
+            let btn = document.createElement('button'); btn.className = 'opt-btn'; btn.innerText = opt;
+            btn.onclick = () => { if(!answered) check(btn, i === d.correct); };
+            cont.appendChild(btn);
+        });
+    }
+
+    function check(btn, isCorrect) {
+        if(answered) return; answered = true;
+        let d = currentData[currentLevel][currentQ];
+        document.getElementsByClassName('opt-btn')[d.correct].classList.add('correct');
+        
+        let msg = new SpeechSynthesisUtterance("The correct answer is " + d.options[d.correct]);
+        window.speechSynthesis.speak(msg);
+
+        if(isCorrect) { score++; document.getElementById('score-board').innerText = "Score: " + score; }
+        else { btn.style.background = "#dc3545"; btn.style.color = "white"; }
+    }
+
+    function nextQuestion() {
+        if (currentQ < currentData[currentLevel].length - 1) { currentQ++; loadQuestion(); }
+    }
+
+    function prevQuestion() {
+        if (currentQ > 0) { currentQ--; loadQuestion(); }
+    }
+</script>
+</body>
+</html>

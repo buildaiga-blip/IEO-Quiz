@@ -1,0 +1,26 @@
+{
+  "basic": [
+    { "q": "Identify the noun: The dog barked.", "options": ["Dog", "Barked", "The", "Fast"], "correct": 0 },
+    { "q": "Which of these is a place?", "options": ["School", "Eat", "Red", "Run"], "correct": 0 },
+    { "q": "Identify the noun: She has a red ball.", "options": ["She", "Has", "Ball", "Red"], "correct": 2 },
+    { "q": "Which is a naming word for a person?", "options": ["Teacher", "Jump", "Blue", "Slow"], "correct": 0 },
+    { "q": "Identify the noun: The sun is bright.", "options": ["Bright", "Sun", "Is", "The"], "correct": 1 },
+    { "q": "Which of these is an animal?", "options": ["Cat", "Sit", "Happy", "Big"], "correct": 0 },
+    { "q": "Identify the noun: I have a pen.", "options": ["Have", "Pen", "I", "A"], "correct": 1 },
+    { "q": "Which is a thing?", "options": ["Table", "Walk", "Tall", "He"], "correct": 0 },
+    { "q": "Identify the noun: The car is fast.", "options": ["Fast", "Car", "Is", "The"], "correct": 1 },
+    { "q": "Which of these is a fruit (noun)?", "options": ["Apple", "Eat", "Fast", "Run"], "correct": 0 }
+  ],
+  "advanced": [
+    { "q": "What is the collective noun for a group of keys?", "options": ["Group", "Bunch", "Pack", "Herd"], "correct": 1 },
+    { "q": "Which is an abstract noun?", "options": ["Table", "Happiness", "Car", "City"], "correct": 1 },
+    { "q": "Identify the proper noun:", "options": ["London", "City", "Country", "Town"], "correct": 0 },
+    { "q": "What is the plural of 'child'?", "options": ["Childs", "Children", "Childes", "Childen"], "correct": 1 },
+    { "q": "Which is a collective noun for bees?", "options": ["Swarm", "Flock", "Herd", "Pack"], "correct": 0 },
+    { "q": "Identify the material noun:", "options": ["Gold", "Boy", "Kindness", "New York"], "correct": 0 },
+    { "q": "What is the plural of 'leaf'?", "options": ["Leafs", "Leaves", "Leafes", "Leavs"], "correct": 1 },
+    { "q": "Which is a common noun?", "options": ["River", "Ganga", "India", "Tuesday"], "correct": 0 },
+    { "q": "Identify the abstract noun:", "options": ["Bravery", "Pen", "Desk", "Dog"], "correct": 0 },
+    { "q": "What is the collective noun for birds?", "options": ["Flock", "School", "Pack", "Herd"], "correct": 0 }
+  ]
+}
