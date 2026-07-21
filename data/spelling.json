@@ -1,26 +1,306 @@
 {
   "basic": [
-    {"q": "Spell the word for a fruit that keeps the doctor away.", "options": ["Apple", "Aple", "Apel", "Appel"], "correct": 0},
-    {"q": "Choose the correct spelling:", "options": ["Scholl", "School", "Skool", "Schoole"], "correct": 1},
-    {"q": "Spell the color of grass.", "options": ["Greeen", "Gren", "Green", "Greene"], "correct": 2},
-    {"q": "Correct spelling of 'Happy'?", "options": ["Hapy", "Happy", "Happe", "Hapi"], "correct": 1},
-    {"q": "Choose the correct spelling:", "options": ["Book", "Bok", "Buke", "Boook"], "correct": 0},
-    {"q": "Correct spelling of 'Jump'?", "options": ["Jumpe", "Jumpp", "Jump", "Jamp"], "correct": 2},
-    {"q": "Correct spelling of 'Small'?", "options": ["Smal", "Small", "Smoll", "Smale"], "correct": 1},
-    {"q": "Correct spelling of 'Read'?", "options": ["Red", "Reed", "Read", "Raed"], "correct": 2},
-    {"q": "Correct spelling of 'Bird'?", "options": ["Bierd", "Bird", "Burd", "Byrd"], "correct": 1},
-    {"q": "Correct spelling of 'Sun'?", "options": ["Sun", "Sonn", "Soun", "Sune"], "correct": 0}
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Appel", "Apple", "Aple", "Apel"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["School", "Skool", "Scool", "Schoole"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Freind", "Friend", "Frend", "Frind"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Hous", "Howse", "Houce", "House"],
+      "correct": 3
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Watell", "Water", "Watter", "Wator"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Mornig", "Morning", "Mornin", "Schoole"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Teecher", "Techer", "Teachr", "Teacher"],
+      "correct": 3
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Flowar", "Flower", "Flowre", "Flouwer"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Bok", "Booke", "Book", "Bouk"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Pensil", "Pencil", "Pensel", "Pencle"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Cullor", "Colour", "Coler", "Cullur"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Windou", "Windw", "Window", "Windo"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Tabel", "Table", "Tabble", "Taible"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Chare", "Chair", "Chayr", "Chiar"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Elesephant", "Elifant", "Elephant", "Elephand"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Banna", "Bannana", "Banana", "Bannaana"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Orenge", "Orange", "Orrange", "Orangee"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Pater", "Patta", "Pappr", "Paper"],
+      "correct": 3
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Gardon", "Gaerden", "GARDEN", "Gardin"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Miletary", "Military", "Milatary", "Millitary"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Mothur", "Mother", "Mothar", "Mothr"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Fathur", "Father", "Fathar", "Fathr"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Broter", "Brother", "Brothir", "Brothor"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Sistar", "Sister", "Sistur", "Cister"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Schoole", "Skool", "School", "Skol"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Sonday", "Sunday", "Sundee", "Sunde"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Monnday", "Mondy", "Munda", "Monday"],
+      "correct": 3
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Yelow", "Yellou", "Yellow", "Yello"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Purpl", "Purpel", "Purple", "Purpule"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Orang", "Orange", "Orrange", "Orinj"],
+      "correct": 1
+    }
   ],
   "advanced": [
-    {"q": "Correct spelling:", "options": ["Beautiful", "Beutiful", "Beautifull", "Beutyful"], "correct": 0},
-    {"q": "Correct spelling:", "options": ["Elephant", "Elefant", "Elefantt", "Elifant"], "correct": 0},
-    {"q": "Correct spelling:", "options": ["Recieve", "Receive", "Recieive", "Receve"], "correct": 1},
-    {"q": "Correct spelling:", "options": ["Library", "Libary", "Libery", "Librery"], "correct": 0},
-    {"q": "Correct spelling:", "options": ["Calendar", "Calender", "Calander", "Calender"], "correct": 0},
-    {"q": "Correct spelling:", "options": ["Necessary", "Necesary", "Neccessary", "Nesesary"], "correct": 0},
-    {"q": "Correct spelling:", "options": ["Separate", "Seperate", "Seprate", "Sepperate"], "correct": 0},
-    {"q": "Correct spelling:", "options": ["Believe", "Beleive", "Belive", "Bieleve"], "correct": 0},
-    {"q": "Correct spelling:", "options": ["Definite", "Definate", "Definit", "Definitt"], "correct": 0},
-    {"q": "Correct spelling:", "options": ["Tomorrow", "Tommorrow", "Tomerrow", "Tomoro"], "correct": 0}
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Beutiful", "Beautiful", "Beatiful", "Beautifull"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Tomorow", "Tomorro", "Tomorrow", "Tomoroww"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Diffrent", "Different", "Diferent", "Diffarent"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Neigbour", "Nighbour", "Neibor", "Neighbor"],
+      "correct": 3
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Becos", "Because", "Becaus", "Bicause"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Togather", "Togetter", "Together", "Togather"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Importent", "Improtant", "Important", "Importaint"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Familar", "Familiar", "Familliar", "Fammiliar"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Yesterda", "Yesterdey", "Yesteraday", "Yesterday"],
+      "correct": 3
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Childern", "Children", "Cildren", "Childreen"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Aniamls", "Animales", "Animals", "Animls"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Languge", "Langauge", "Language", "Languege"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Envelop", "Anvelope", "Envelope", "Ennvelope"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Remimber", "Remembr", "Rimember", "Remember"],
+      "correct": 3
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Sunflowar", "Sunfloower", "Sunflour", "Sunflower"],
+      "correct": 3
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Umbrela", "Umberlla", "Umbrella", "Umbrellaa"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Libary", "Library", "Libery", "Librery"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Hosptial", "Hospitel", "Hospital", "Hospitall"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Stationary", "Stationry", "Stationery", "Statioinery"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Vegitable", "Vegetable", "Vegetible", "Vegtable"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Paragraf", "Paragraph", "Paragrapgh", "Parragraph"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Vilage", "Villige", "Village", "Vilagee"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Jurnee", "Journy", "Journe", "Journey"],
+      "correct": 3
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Mountian", "Mountain", "Mountein", "Mountin"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Fountian", "Fountein", "Fountin", "Fountain"],
+      "correct": 3
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Sentense", "Sentence", "Senttence", "Sentece"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Questin", "Queston", "Question", "Quesion"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Anser", "Answer", "Answar", "Answeer"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Excercise", "Exersice", "Exercize", "Exercise"],
+      "correct": 3
+    },
+    {
+      "q": "Choose the correctly spelled word.",
+      "options": ["Nowledge", "Knowlege", "Knowledge", "Knowlidge"],
+      "correct": 2
+    }
   ]
 }
