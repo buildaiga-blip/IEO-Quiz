@@ -133,6 +133,9 @@
     }
 
     function loadQuestion() {
+        // Stop any ongoing text-to-speech audio when loading a new question
+        window.speechSynthesis.cancel();
+        
         clearInterval(timer);
         timeLeft = 15;
         isAnswerLocked = false;
@@ -165,14 +168,11 @@
         if(answered || isAnswerLocked) return; 
         answered = true;
         isAnswerLocked = true;
-        clearInterval(timer);
+        clearInterval(timer); // Stop the 15-second timer immediately upon selecting an answer
 
         let d = currentData[currentLevel][currentQ];
         let options = document.getElementsByClassName('opt-btn');
         options[d.correct].classList.add('correct');
-        
-        let msg = new SpeechSynthesisUtterance("The correct answer is " + d.options[d.correct]);
-        window.speechSynthesis.speak(msg);
 
         if(isCorrect) { 
             score++; 
@@ -182,9 +182,24 @@
             btn.style.color = "white"; 
         }
 
-        setTimeout(() => {
+        // Speech synthesis and dynamic wait time based on speech completion
+        let msg = new SpeechSynthesisUtterance("The correct answer is " + d.options[d.correct]);
+        
+        msg.onend = function() {
             nextQuestion();
-        }, 1500);
+        };
+        
+        // Failsafe backup timeout if speech synthesis fails or gets blocked by browser audio permissions
+        let safetyTimeout = setTimeout(() => {
+            nextQuestion();
+        }, 4000);
+
+        msg.onerror = function() {
+            clearTimeout(safetyTimeout);
+            nextQuestion();
+        };
+
+        window.speechSynthesis.speak(msg);
     }
 
     function nextQuestion() {
@@ -193,6 +208,7 @@
             loadQuestion(); 
         } else {
             clearInterval(timer);
+            window.speechSynthesis.cancel();
             document.getElementById('quiz-area').innerHTML = "<h2>Level Completed! 🎉</h2>";
         }
     }
@@ -227,9 +243,23 @@
             options[d.correct].classList.add('correct');
         }
 
-        setTimeout(() => { 
-            nextQuestion(); 
-        }, 1500);
+        // Read out the answer even on timeout auto-forward and wait until audio finishes
+        let msg = new SpeechSynthesisUtterance("The correct answer is " + d.options[d.correct]);
+        
+        msg.onend = function() {
+            nextQuestion();
+        };
+        
+        let safetyTimeout = setTimeout(() => {
+            nextQuestion();
+        }, 4000);
+
+        msg.onerror = function() {
+            clearTimeout(safetyTimeout);
+            nextQuestion();
+        };
+
+        window.speechSynthesis.speak(msg);
     }
 </script>
 </body>
