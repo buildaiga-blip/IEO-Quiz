@@ -1,0 +1,306 @@
+{
+  "basic": [
+    {
+      "q": "What is a synonym for the word 'happy'?",
+      "options": ["Sad", "Joyful", "Angry", "Tired"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct antonym (opposite) for the word 'big':",
+      "options": ["Huge", "Large", "Small", "Tall"],
+      "correct": 2
+    },
+    {
+      "q": "Which word means the same as 'fast'?",
+      "options": ["Slow", "Quick", "Late", "Cold"],
+      "correct": 1
+    },
+    {
+      "q": "What is the opposite of 'hot'?",
+      "options": ["Warm", "Cold", "Sunny", "Boiling"],
+      "correct": 1
+    },
+    {
+      "q": "Find the synonym for 'start':",
+      "options": ["Finish", "Begin", "Stop", "End"],
+      "correct": 1
+    },
+    {
+      "q": "What is the antonym of 'up'?",
+      "options": ["High", "Down", "Over", "Above"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the word that means the same as 'small':",
+      "options": ["Tiny", "Giant", "Huge", "Tall"],
+      "correct": 0
+    },
+    {
+      "q": "What is the opposite of 'good'?",
+      "options": ["Nice", "Bad", "Great", "Fine"],
+      "correct": 1
+    },
+    {
+      "q": "Which word is a synonym for 'smart'?",
+      "options": ["Silly", "Clever", "Dull", "Slow"],
+      "correct": 1
+    },
+    {
+      "q": "What is the antonym of 'day'?",
+      "options": ["Morning", "Night", "Sun", "Light"],
+      "correct": 1
+    },
+    {
+      "q": "Find the synonym for 'glad':",
+      "options": ["Happy", "Angry", "Upset", "Cry"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the opposite of 'clean':",
+      "options": ["Neat", "Dirty", "Bright", "Wash"],
+      "correct": 1
+    },
+    {
+      "q": "What does the word 'ill' mean? (Synonym)",
+      "options": ["Healthy", "Sick", "Strong", "Happy"],
+      "correct": 1
+    },
+    {
+      "q": "What is the antonym of 'happy'?",
+      "options": ["Glad", "Cheerful", "Sad", "Joyful"],
+      "correct": 2
+    },
+    {
+      "q": "Which word is a synonym for 'speak'?",
+      "options": ["Talk", "Listen", "Hear", "Walk"],
+      "correct": 0
+    },
+    {
+      "q": "What is the opposite of 'open'?",
+      "options": ["Closed", "Free", "Wide", "Unlock"],
+      "correct": 0
+    },
+    {
+      "q": "Find the synonym for 'little':",
+      "options": ["Big", "Small", "Tall", "Long"],
+      "correct": 1
+    },
+    {
+      "q": "What is the antonym of 'wet'?",
+      "options": ["Damp", "Dry", "Water", "Rainy"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the word that means the same as 'jump':",
+      "options": ["Leap", "Sit", "Fall", "Run"],
+      "correct": 0
+    },
+    {
+      "q": "What is the opposite of 'old' (for things)?",
+      "options": ["Ancient", "New", "Used", "Bad"],
+      "correct": 1
+    },
+    {
+      "q": "Which word is a synonym for 'beautiful'?",
+      "options": ["Pretty", "Ugly", "Plain", "Scary"],
+      "correct": 0
+    },
+    {
+      "q": "What is the antonym of 'tall'?",
+      "options": ["High", "Short", "Long", "Big"],
+      "correct": 1
+    },
+    {
+      "q": "Find the synonym for 'silent':",
+      "options": ["Quiet", "Loud", "Noisy", "Brave"],
+      "correct": 0
+    },
+    {
+      "q": "What is the opposite of 'soft'?",
+      "options": ["Hard", "Smooth", "Fluffy", "Gentle"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the synonym for 'gift':",
+      "options": ["Present", "Toy", "Box", "Card"],
+      "correct": 0
+    },
+    {
+      "q": "What is the antonym of 'rich'?",
+      "options": ["Poor", "Wealthy", "Happy", "Strong"],
+      "correct": 0
+    },
+    {
+      "q": "Which word means the same as 'stone'?",
+      "options": ["Rock", "Water", "Leaf", "Stick"],
+      "correct": 0
+    },
+    {
+      "q": "What is the opposite of 'empty'?",
+      "options": ["Full", "Clear", "Hollow", "Blank"],
+      "correct": 0
+    },
+    {
+      "q": "Find the synonym for 'right' (correct):",
+      "options": ["Wrong", "True", "Left", "Bad"],
+      "correct": 1
+    },
+    {
+      "q": "What is the antonym of 'fast'?",
+      "options": ["Quick", "Rapid", "Slow", "Swift"],
+      "correct": 2
+    }
+  ],
+  "advanced": [
+    {
+      "q": "Identify the option where the synonym pair is incorrect:",
+      "options": ["Courageous / Brave", "Enormous / Massive", "Ancient / Modern", "Weary / Tired"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the word that is an antonym for 'transparent':",
+      "options": ["Clear", "Opaque", "See-through", "Glassy"],
+      "correct": 1
+    },
+    {
+      "q": "Which of the following words is a close synonym for 'abundant'?",
+      "options": ["Scarce", "Plentiful", "Empty", "Rare"],
+      "correct": 1
+    },
+    {
+      "q": "Select the correct antonym for the word 'artificial':",
+      "options": ["Fake", "Natural", "Synthetic", "Man-made"],
+      "correct": 1
+    },
+    {
+      "q": "Find the synonym for 'diligent' suited for a Class 2 advanced vocabulary challenge:",
+      "options": ["Lazy", "Hardworking", "Careless", "Tired"],
+      "correct": 1
+    },
+    {
+      "q": "What is the exact antonym of 'fragile'?",
+      "options": ["Delicate", "Weak", "Sturdy", "Brittle"],
+      "correct": 2
+    },
+    {
+      "q": "Which word represents a synonym for 'furious'?",
+      "options": ["Calm", "Angry", "Happy", "Quiet"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the antonym of 'generous':",
+      "options": ["Kind", "Selfish", "Giving", "Helpful"],
+      "correct": 1
+    },
+    {
+      "q": "What is a synonym for 'swift'?",
+      "options": ["Sluggish", "Rapid", "Lazy", "Slow"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the antonym for 'ancient':",
+      "options": ["Old", "Modern", "Historic", "Age-old"],
+      "correct": 1
+    },
+    {
+      "q": "Which pair represents antonyms?",
+      "options": ["Expand / Shrink", "Construct / Build", "Gather / Collect", "Complete / Finish"],
+      "correct": 0
+    },
+    {
+      "q": "What is the synonym for 'intelligent' among these choices?",
+      "options": ["Bright", "Foolish", "Ignorant", "Dull"],
+      "correct": 0
+    },
+    {
+      "q": "Select the antonym for 'fierce':",
+      "options": ["Wild", "Gentle", "Fierce", "Furious"],
+      "correct": 1
+    },
+    {
+      "q": "Find the synonym for 'peril' (danger):",
+      "options": ["Safety", "Hazard", "Peace", "Comfort"],
+      "correct": 1
+    },
+    {
+      "q": "What is the antonym of 'victory'?",
+      "options": ["Win", "Success", "Defeat", "Triumph"],
+      "correct": 2
+    },
+    {
+      "q": "Which word is a synonym for 'weary'?",
+      "options": ["Energetic", "Exhausted", "Alive", "Active"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the antonym for 'hostile':",
+      "options": ["Friendly", "Unfriendly", "Bitter", "Angry"],
+      "correct": 0
+    },
+    {
+      "q": "What is a synonym for 'blossom'?",
+      "options": ["Wither", "Flower", "Fade", "Die"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the antonym of 'scarcity':",
+      "options": ["Drought", "Abundance", "Lack", "Shortage"],
+      "correct": 1
+    },
+    {
+      "q": "Which word means the same as 'loyal'?",
+      "options": ["Faithful", "Traitorous", "Disloyal", "False"],
+      "correct": 0
+    },
+    {
+      "q": "What is the antonym of 'interior'?",
+      "options": ["Inside", "Internal", "Exterior", "Indoor"],
+      "correct": 2
+    },
+    {
+      "q": "Find the synonym for 'curious':",
+      "options": ["Inquisitive", "Indifferent", "Bored", "Uninterested"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the antonym for 'permanent':",
+      "options": ["Lasting", "Temporary", "Enduring", "Eternal"],
+      "correct": 1
+    },
+    {
+      "q": "What is a synonym for 'grief'?",
+      "options": ["Joy", "Sorrow", "Delight", "Mirth"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the antonym of 'superior':",
+      "options": ["Better", "Inferior", "Greater", "Higher"],
+      "correct": 1
+    },
+    {
+      "q": "Which word is a synonym for 'hasty'?",
+      "options": ["Deliberate", "Quick", "Slow", "Cautious"],
+      "correct": 1
+    },
+    {
+      "q": "What is the antonym of 'create'?",
+      "options": ["Build", "Destroy", "Make", "Form"],
+      "correct": 1
+    },
+    {
+      "q": "Find the synonym for 'assist':",
+      "options": ["Hinder", "Help", "Block", "Stop"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the antonym for 'optimistic':",
+      "options": ["Hopeful", "Positive", "Pessimistic", "Cheerful"],
+      "correct": 2
+    },
+    {
+      "q": "What is a synonym for 'foe'?",
+      "options": ["Friend", "Ally", "Enemy", "Partner"],
+      "correct": 2
+    }
+  ]
+}
