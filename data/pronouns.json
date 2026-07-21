@@ -1,0 +1,306 @@
+{
+  "basic": [
+    {
+      "q": "Choose the correct pronoun to complete the sentence: '___ am a student.'",
+      "options": ["He", "She", "I", "They"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the pronoun in the sentence: 'Mary gave him a book.'",
+      "options": ["Mary", "gave", "him", "book"],
+      "correct": 2
+    },
+    {
+      "q": "Fill in the blank with the correct possessive pronoun: 'This is my pen. That pen is ___.'",
+      "options": ["your", "yours", "you", "my"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct subject pronoun: '___ went to the store together.'",
+      "options": ["Me and him", "Him and me", "He and I", "His and I"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the pronoun type of the word 'myself' in: 'I made this cake myself.'",
+      "options": ["Personal pronoun", "Reflexive pronoun", "Demonstrative pronoun", "Relative pronoun"],
+      "correct": 1
+    },
+    {
+      "q": "Complete the sentence with the correct demonstrative pronoun: '___ is a beautiful painting hanging on that wall.'",
+      "options": ["These", "Those", "This", "They"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct object pronoun: 'Please give the report to ___.'",
+      "options": ["she", "he", "they", "them"],
+      "correct": 3
+    },
+    {
+      "q": "Find the pronoun in the sentence: 'Everyone enjoyed the party.'",
+      "options": ["Everyone", "enjoyed", "party", "the"],
+      "correct": 0
+    },
+    {
+      "q": "Fill in the blank: 'John and ___ are playing football.'",
+      "options": ["me", "I", "my", "myself"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct possessive adjective/determiner: 'Is this ___ car?'",
+      "options": ["yours", "your", "you", "he"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the pronoun: 'The dog hurt itself when it jumped.'",
+      "options": ["dog", "hurt", "itself", "jumped"],
+      "correct": 2
+    },
+    {
+      "q": "Complete the sentence: 'Sarah invited Mark and ___ to her birthday party.'",
+      "options": ["I", "me", "my", "mine"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct pronoun: '___ are my favorite shoes.'",
+      "options": ["This", "That", "These", "It"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the pronoun in: 'Who left this door open?'",
+      "options": ["Who", "left", "door", "open"],
+      "correct": 0
+    },
+    {
+      "q": "Fill in the blank: 'The teacher praised ___ for doing a great job.'",
+      "options": ["we", "us", "our", "ours"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct reflexive pronoun: 'The cat cleaned ___.'",
+      "options": ["himself", "herself", "itself", "themselves"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the pronoun type of 'someone' in: 'Someone is knocking at the door.'",
+      "options": ["Personal pronoun", "Indefinite pronoun", "Interrogative pronoun", "Demonstrative pronoun"],
+      "correct": 1
+    },
+    {
+      "q": "Complete the sentence: 'Is that book ___ or mine?'",
+      "options": ["your", "yours", "you", "their"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct pronoun: 'Neither of the boys completed ___ homework.'",
+      "options": ["their", "his", "theirs", "them"],
+      "correct": 1
+    },
+    {
+      "q": "Find the pronoun in: 'What did you say?'",
+      "options": ["What", "did", "say", "none"],
+      "correct": 0
+    },
+    {
+      "q": "Fill in the blank: 'Give the toy back to ___.'",
+      "options": ["he", "she", "him", "they"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct pronoun: 'My sister and ___ love reading mystery novels.'",
+      "options": ["me", "I", "mine", "myself"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the pronoun: 'This is the house where I was born.'",
+      "options": ["house", "where", "born", "I"],
+      "correct": 3
+    },
+    {
+      "q": "Complete the sentence: 'The children baked the cookies all by ___.'",
+      "options": ["themselves", "themself", "theirselves", "them"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct option: '___ of the options is correct.'",
+      "options": ["Any", "Either", "Both", "All"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the pronoun in: 'He is the man who helped me.'",
+      "options": ["man", "who", "helped", "the"],
+      "correct": 1
+    },
+    {
+      "q": "Fill in the blank: 'Can you help ___ with this heavy box?'",
+      "options": ["I", "my", "me", "mine"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct pronoun: 'Everybody has ___ own opinion.'",
+      "options": ["their", "his or her", "our", "your"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the relative pronoun in: 'The car that I bought is red.'",
+      "options": ["car", "that", "bought", "red"],
+      "correct": 1
+    },
+    {
+      "q": "Complete the sentence: '___ are delicious apples.'",
+      "options": ["That", "This", "Those", "It"],
+      "correct": 2
+    }
+  ],
+  "advanced": [
+    {
+      "q": "Choose the correct pronoun to complete the formal sentence: 'It was ___ who answered the phone during the emergency.'",
+      "options": ["me", "I", "him", "whom"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the case of the pronoun capitalized in: 'The committee awarded WHOMP with the prize.' (Correction variant: Whom did you invite?) -> Choose the correct case for 'Whom' when used as a direct object:",
+      "options": ["Nominative case", "Objective (Accusative) case", "Possessive (Genitive) case", "Vocative case"],
+      "correct": 1
+    },
+    {
+      "q": "Fill in the blank with the correct relative pronoun: 'The scientist ___ research revolutionized physics won the Nobel Prize.'",
+      "options": ["who", "whom", "whose", "which"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct pronoun form following a comparison: 'She is much taller than ___.'",
+      "options": ["me", "I", "myself", "mine"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the antecedent ambiguity error or select the correct pronoun clarity sentence:",
+      "options": ["John told Mark that he needed to work harder.", "The box contained a watch, which was broken.", "Both sentences contain pronouns.", "Only sentence B has a completely clear relative clause."],
+      "correct": 3
+    },
+    {
+      "q": "Complete the sentence using the correct intensive pronoun for emphasis: 'The director ___ signed the contract.'",
+      "options": ["himself", "him", "his", "he"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct option for formal agreement: 'Each of the participants must submit ___ application by Friday.'",
+      "options": ["their", "his or her", "our", "your"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the grammatical function of 'what' in: 'I know what you are thinking.'",
+      "options": ["Interrogative pronoun", "Relative pronoun introducing a noun clause", "Demonstrative pronoun", "Indefinite pronoun"],
+      "correct": 1
+    },
+    {
+      "q": "Fill in the blank with the correct compound relative pronoun: 'You may invite ___ you like to the gala.'",
+      "options": ["whoever", "whomever", "whosever", "whichever"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct pronoun case after a preposition: 'This matter is strictly between you and ___.'",
+      "options": ["I", "me", "myself", "mine"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the indefinite pronoun that takes a singular verb: '___ of the candidates has arrived yet.'",
+      "options": ["Few", "Many", "None", "Several"],
+      "correct": 2
+    },
+    {
+      "q": "Complete the sentence: 'Whose jacket is this? It is ___.'",
+      "options": ["hers", "her's", "her", "she's"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct pronoun to complete: 'Let ___ who are without sin cast the first stone.'",
+      "options": ["they", "them", "those", "their"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the correct usage of 'who' vs 'whom' in: '___ did you see at the conference?'",
+      "options": ["Who", "Whom", "Whose", "Which"],
+      "correct": 1
+    },
+    {
+      "q": "Fill in the blank: 'The management team expressed ___ dissatisfaction with the quarterly report.'",
+      "options": ["its", "their", "his", "theirs"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct correlative pronoun/adjective structure: '___ you sow, ___ shall you reap.'",
+      "options": ["As / so", "Such / that", "Both / and", "Neither / nor"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the type of pronoun underlined/capitalized in: 'WHATEVER happens, stay calm.'",
+      "options": ["Compound relative / indefinite pronoun", "Demonstrative pronoun", "Personal pronoun", "Possessive pronoun"],
+      "correct": 0
+    },
+    {
+      "q": "Complete the sentence with standard formal grammar: 'It is important that every student bring ___ own laptop.'",
+      "options": ["their", "his or her", "our", "theirs"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct pronoun choice for an elliptical clause: 'He can run as fast as ___.'",
+      "options": ["me", "I", "myself", "mine"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the error or correct choice: 'Nominalizations and pronoun reference errors can obscure meaning. In 'John and David went out, but he was tired,' the pronoun reference is:'",
+      "options": ["Ambiguous", "Clear", "Reflexive", "Intensive"],
+      "correct": 0
+    },
+    {
+      "q": "Fill in the blank with the correct reciprocal pronoun: 'The two rival companies blamed ___ for the market crash.'",
+      "options": ["each other", "one another", "themselves", "themself"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct option: '___ intelligent a student she is, she still needs to study.'",
+      "options": ["However", "Whatever", "Whenever", "Wherever"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the pronoun acting as a subject complement in: 'The winner of the competition will be ___.'",
+      "options": ["he", "him", "his", "himself"],
+      "correct": 0
+    },
+    {
+      "q": "Complete the sentence: 'Give the award to ___ deserves it most.'",
+      "options": ["whoever", "whomever", "who", "whom"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct grammatical pronoun form: 'The honor belongs to ___ and me.'",
+      "options": ["she", "her", "hers", "herself"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the function of 'that' in: 'The book THAT is on the desk belongs to the professor.'",
+      "options": ["Relative pronoun introducing a restrictive clause", "Demonstrative pronoun", "Personal pronoun", "Indefinite pronoun"],
+      "correct": 0
+    },
+    {
+      "q": "Fill in the blank: 'Hardly anyone expressed ___ approval of the new policy.'",
+      "options": ["their", "his or her", "its", "our"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct option: 'Between you and ___, I think the plan will fail.'",
+      "options": ["I", "me", "myself", "mine"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the pronoun type in: 'SUCH is the nature of politics.'",
+      "options": ["Demonstrative / qualitative pronoun", "Personal pronoun", "Reflexive pronoun", "Relative pronoun"],
+      "correct": 0
+    },
+    {
+      "q": "Complete the sentence: 'If anyone calls, tell ___ that I am in a meeting.'",
+      "options": ["them", "him or her", "they", "their"],
+      "correct": 1
+    }
+  ]
+}
