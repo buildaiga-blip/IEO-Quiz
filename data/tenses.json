@@ -1,0 +1,306 @@
+{
+  "basic": [
+    {
+      "q": "Choose the correct present tense form: 'Every day, the sun ___ in the east.'",
+      "options": ["rise", "rises", "rising", "rose"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the tense of the sentence: 'She is eating an apple right now.'",
+      "options": ["Simple past", "Simple present", "Present continuous", "Future tense"],
+      "correct": 2
+    },
+    {
+      "q": "Fill in the blank with the correct past tense: 'Yesterday, I ___ to the park with my friends.'",
+      "options": ["go", "goes", "gone", "went"],
+      "correct": 3
+    },
+    {
+      "q": "Choose the correct future tense option: 'Tomorrow, we ___ visit our grandparents.'",
+      "options": ["will", "did", "was", "are"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the verb in the simple present tense:",
+      "options": ["played", "plays", "playing", "will play"],
+      "correct": 1
+    },
+    {
+      "q": "Complete the sentence: 'Look! The birds ___ in the sky.'",
+      "options": ["fly", "are flying", "flew", "will fly"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct past tense of 'run':",
+      "options": ["runned", "ran", "running", "runs"],
+      "correct": 1
+    },
+    {
+      "q": "Which sentence is in the simple past tense?",
+      "options": ["I eat lunch.", "I ate lunch.", "I am eating lunch.", "I will eat lunch."],
+      "correct": 1
+    },
+    {
+      "q": "Fill in the blank: 'Cats ___ milk.'",
+      "options": ["likes", "like", "liked", "liking"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the future tense sentence:",
+      "options": ["She cleaned her room.", "She cleans her room.", "She will clean her room.", "She is cleaning her room."],
+      "correct": 2
+    },
+    {
+      "q": "What is the past tense of 'jump'?",
+      "options": ["jumping", "jumped", "jumps", "jump"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct word: 'Right now, Rahul ___ his homework.'",
+      "options": ["do", "does", "is doing", "did"],
+      "correct": 2
+    },
+    {
+      "q": "Complete the sentence with simple present: 'Water ___ at 100 degrees Celsius.'",
+      "options": ["boil", "boils", "boiling", "boiled"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the past tense verb in this list:",
+      "options": ["sing", "sang", "sung", "singing"],
+      "correct": 1
+    },
+    {
+      "q": "Fill in the blank: 'Last night, we ___ a funny movie.'",
+      "options": ["watch", "watched", "watching", "will watch"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct option for a habit: 'I always ___ my teeth before bed.'",
+      "options": ["brush", "brushes", "brushed", "brushing"],
+      "correct": 0
+    },
+    {
+      "q": "What is the correct form for something happening tomorrow?",
+      "options": ["I play football.", "I played football.", "I will play football.", "I am playing football yesterday."],
+      "correct": 2
+    },
+    {
+      "q": "Identify the tense: 'The baby cried because he was hungry.'",
+      "options": ["Present tense", "Past tense", "Future tense", "None of these"],
+      "correct": 1
+    },
+    {
+      "q": "Fill in the blank: 'Listen! Someone ___ at the door.'",
+      "options": ["knock", "knocks", "is knocking", "knocked"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the past tense of 'eat':",
+      "options": ["eated", "ate", "eaten", "eating"],
+      "correct": 1
+    },
+    {
+      "q": "Complete the sentence: 'Next week, my school ___ on a field trip.'",
+      "options": ["goes", "went", "will go", "is go"],
+      "correct": 2
+    },
+    {
+      "q": "Which word shows an action happening right now?",
+      "options": ["reading", "read", "reads", "will read"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct simple present sentence:",
+      "options": ["The dog barked.", "The dog barks.", "The dog is barking.", "The dog will bark."],
+      "correct": 1
+    },
+    {
+      "q": "What is the past tense of 'write'?",
+      "options": ["writed", "wrote", "written", "writing"],
+      "correct": 1
+    },
+    {
+      "q": "Fill in the blank: 'She ___ her favorite dress yesterday.'",
+      "options": ["wear", "wears", "wore", "wearing"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the future tense marker word commonly used:",
+      "options": ["Yesterday", "Now", "Tomorrow", "Always"],
+      "correct": 2
+    },
+    {
+      "q": "Complete the sentence: 'Monkeys ___ bananas.'",
+      "options": ["eat", "eats", "ate", "eating"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct verb form: 'He ___ football every Sunday.'",
+      "options": ["play", "plays", "played", "playing"],
+      "correct": 1
+    },
+    {
+      "q": "What is the past tense of 'sleep'?",
+      "options": ["sleeped", "slept", "sleeping", "sleeps"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the sentence in the present continuous tense:",
+      "options": ["They swim in the pool.", "They swam in the pool.", "They are swimming in the pool.", "They will swim in the pool."],
+      "correct": 2
+    }
+  ],
+  "advanced": [
+    {
+      "q": "Identify the tense and aspect of the sentence: 'By next month, she will have completed her project.'",
+      "options": ["Future continuous", "Future perfect", "Present perfect", "Past perfect"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct verb form for the past perfect tense: 'Before the guests arrived, we ___ dinner.'",
+      "options": ["finish", "finished", "had finished", "have finished"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the sentence that correctly uses the present perfect tense:",
+      "options": ["I saw that movie yesterday.", "I have seen that movie three times.", "I see that movie now.", "I had seen that movie."],
+      "correct": 1
+    },
+    {
+      "q": "Complete the sentence using the past continuous tense: 'While I ___ television, the phone rang.'",
+      "options": ["watch", "watched", "was watching", "had watched"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct form for a general universal truth:",
+      "options": ["The planets revolved around the sun.", "The planets revolve around the sun.", "The planets are revolving around the sun.", "The planets will revolve around the sun."],
+      "correct": 1
+    },
+    {
+      "q": "Identify the future continuous tense sentence:",
+      "options": ["At 8 PM tonight, I will study.", "At 8 PM tonight, I will be studying.", "At 8 PM tonight, I have studied.", "At 8 PM tonight, I will have studied."],
+      "correct": 1
+    },
+    {
+      "q": "Fill in the blank with the correct tense sequence: 'She said that she ___ the report the day before.'",
+      "options": ["finishes", "will finish", "had finished", "has finished"],
+      "correct": 2
+    },
+    {
+      "q": "Which sentence contains an error in tense consistency?",
+      "options": ["When he entered the room, everyone stood up.", "She locked the door and walked away.", "He walks to the store and bought some milk.", "They were eating dinner when the lights went out."],
+      "correct": 2
+    },
+    {
+      "q": "What is the present perfect continuous form of the verb 'work' for first-person plural ('we')?",
+      "options": ["We worked", "We are working", "We have been working", "We had worked"],
+      "correct": 2
+    },
+    {
+      "q": "Complete the conditional sentence structure: 'If it rains tomorrow, we ___ the match.'",
+      "options": ["will cancel", "canceled", "would cancel", "cancel"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the tense of: 'He had been living in New York for five years before he moved.'",
+      "options": ["Present perfect continuous", "Past perfect continuous", "Past continuous", "Future perfect continuous"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct verb phrase: 'By the time you arrive, the train ___.'",
+      "options": ["will leave", "leaves", "will have left", "left"],
+      "correct": 2
+    },
+    {
+      "q": "Which tense is used to describe an action completed at an unspecified time in the past relative to the present?",
+      "options": ["Simple past", "Present perfect", "Past perfect", "Future simple"],
+      "correct": 1
+    },
+    {
+      "q": "Fill in the blank: 'Hardly had she stepped outside when it ___ to pour.'",
+      "options": ["began", "begun", "begins", "had begun"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the grammatical tense error in: 'I am knowing her for a long time.' (Correction choice style)",
+      "options": ["Stative verbs like 'know' are rarely used in continuous tenses; it should be 'I have known'.", "It is correct as written.", "It should be in the simple future.", "It should be past continuous."],
+      "correct": 0
+    },
+    {
+      "q": "Complete the sentence with the correct subjunctive/past tense in a hypothetical context: 'I wish I ___ how to swim.'",
+      "options": ["know", "knew", "had known", "will know"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct sequence of tenses: 'She promises that she ___ help you tomorrow.'",
+      "options": ["will", "would", "did", "had"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the sentence that correctly expresses a future arrangement or timetable:",
+      "options": ["The train leaves at 6:00 AM tomorrow.", "The train will leave at 6:00 AM tomorrow.", "The train is left at 6:00 AM tomorrow.", "The train has left at 6:00 AM tomorrow."],
+      "correct": 0
+    },
+    {
+      "q": "Fill in the blank: 'By next year, they ___ married for a decade.'",
+      "options": ["will be", "will have been", "are", "have been"],
+      "correct": 1
+    },
+    {
+      "q": "What is the past participle form of the irregular verb 'choose'?",
+      "options": ["choosed", "chose", "chosen", "choosing"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the tense aspect combination in: 'The children have been playing outside all afternoon.'",
+      "options": ["Present continuous", "Present perfect continuous", "Past perfect continuous", "Simple present"],
+      "correct": 1
+    },
+    {
+      "q": "Complete the sentence: 'If I ___ about the traffic, I would have taken another route.'",
+      "options": ["know", "knew", "had known", "would know"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct verb form: 'She acts as though she ___ everything.'",
+      "options": ["knows", "knew", "had known", "has known"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the passive voice tense in: 'The ancient manuscript was discovered by archeologists.'",
+      "options": ["Present simple passive", "Past simple passive", "Future simple passive", "Present perfect passive"],
+      "correct": 1
+    },
+    {
+      "q": "Fill in the blank with the appropriate future-in-the-past form: 'He told me that he ___ join us later.'",
+      "options": ["will", "would", "shall", "can"],
+      "correct": 1
+    },
+    {
+      "q": "Which sentence correctly demonstrates the narrative present tense?",
+      "options": ["Yesterday, I walk into the store and see my friend.", "Suddenly, the hero opens the door and confronts the villain.", "She will walk into the room yesterday.", "They have walked to school tomorrow."],
+      "correct": 1
+    },
+    {
+      "q": "Complete the sentence: 'No sooner had the bell rung ___ the students rushed out.'",
+      "options": ["when", "than", "then", "before"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the correct verb form for a recurring habit in the past: 'When we were children, we ___ swim in the lake every summer.'",
+      "options": ["would", "have", "are", "will"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct tense for a scientific law or timeless fact:",
+      "options": ["The sun rose in the east.", "The sun rises in the east.", "The sun had risen in the east.", "The sun will rise in the east (historically)."],
+      "correct": 1
+    },
+    {
+      "q": "Identify the error type or correct choice: 'She has graduated from college last year.' (Correction choice)",
+      "options": ["Change 'has graduated' to 'graduated' because a specific past time ('last year') is mentioned.", "Change 'last year' to 'since last year'.", "Change 'has graduated' to 'had graduated'.", "No error."],
+      "correct": 0
+    }
+  ]
+}
