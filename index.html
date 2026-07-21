@@ -57,7 +57,6 @@
         </div>
         <div id="score-board">Score: 0</div>
         
-        <!-- Timer UI Components -->
         <div class="timer" id="timerDisplay">Time remaining: 15s</div>
         <div class="timer-bar-container">
             <div class="timer-bar" id="timerBar"></div>
@@ -79,6 +78,7 @@
 <script>
     let score = 0, currentLevel = 'basic', currentTopic = '', answered = false, currentData = {}, currentQ = 0;
     let timer, timeLeft = 15, isAnswerLocked = false;
+    let currentSpeech = null; // Track active speech synthesis instance
 
     const topics = [
         "Spelling", 
@@ -133,8 +133,11 @@
     }
 
     function loadQuestion() {
-        // Stop any ongoing text-to-speech audio when loading a new question
-        window.speechSynthesis.cancel();
+        // Safely cancel any active speech and clear utterance reference to prevent overlapping/double triggers
+        if (currentSpeech) {
+            window.speechSynthesis.cancel();
+            currentSpeech = null;
+        }
         
         clearInterval(timer);
         timeLeft = 15;
@@ -168,7 +171,7 @@
         if(answered || isAnswerLocked) return; 
         answered = true;
         isAnswerLocked = true;
-        clearInterval(timer); // Stop the 15-second timer immediately upon selecting an answer
+        clearInterval(timer); // Stop timer immediately
 
         let d = currentData[currentLevel][currentQ];
         let options = document.getElementsByClassName('opt-btn');
@@ -182,22 +185,26 @@
             btn.style.color = "white"; 
         }
 
-        // Speech synthesis and dynamic wait time based on speech completion
+        // Handle speech output safely and transition strictly after speech finishes
         let msg = new SpeechSynthesisUtterance("The correct answer is " + d.options[d.correct]);
-        
-        msg.onend = function() {
-            nextQuestion();
-        };
-        
-        // Failsafe backup timeout if speech synthesis fails or gets blocked by browser audio permissions
-        let safetyTimeout = setTimeout(() => {
-            nextQuestion();
-        }, 4000);
+        currentSpeech = msg;
 
-        msg.onerror = function() {
-            clearTimeout(safetyTimeout);
+        let hasAdvanced = false;
+
+        function proceedToNext() {
+            if (hasAdvanced) return;
+            hasAdvanced = true;
+            if (currentSpeech === msg) {
+                currentSpeech = null;
+            }
             nextQuestion();
-        };
+        }
+
+        msg.onend = proceedToNext;
+        msg.onerror = proceedToNext;
+
+        // Fallback safety timeout if browser speech hangs
+        let safetyTimeout = setTimeout(proceedToNext, 4000);
 
         window.speechSynthesis.speak(msg);
     }
@@ -208,7 +215,10 @@
             loadQuestion(); 
         } else {
             clearInterval(timer);
-            window.speechSynthesis.cancel();
+            if (currentSpeech) {
+                window.speechSynthesis.cancel();
+                currentSpeech = null;
+            }
             document.getElementById('quiz-area').innerHTML = "<h2>Level Completed! 🎉</h2>";
         }
     }
@@ -243,21 +253,24 @@
             options[d.correct].classList.add('correct');
         }
 
-        // Read out the answer even on timeout auto-forward and wait until audio finishes
         let msg = new SpeechSynthesisUtterance("The correct answer is " + d.options[d.correct]);
-        
-        msg.onend = function() {
-            nextQuestion();
-        };
-        
-        let safetyTimeout = setTimeout(() => {
-            nextQuestion();
-        }, 4000);
+        currentSpeech = msg;
 
-        msg.onerror = function() {
-            clearTimeout(safetyTimeout);
+        let hasAdvanced = false;
+
+        function proceedToNext() {
+            if (hasAdvanced) return;
+            hasAdvanced = true;
+            if (currentSpeech === msg) {
+                currentSpeech = null;
+            }
             nextQuestion();
-        };
+        }
+
+        msg.onend = proceedToNext;
+        msg.onerror = proceedToNext;
+
+        let safetyTimeout = setTimeout(proceedToNext, 4000);
 
         window.speechSynthesis.speak(msg);
     }
