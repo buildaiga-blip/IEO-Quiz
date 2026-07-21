@@ -1,0 +1,306 @@
+{
+  "basic": [
+    {
+      "q": "Identify the adjective in the sentence: 'The red apple is sweet.'",
+      "options": ["apple", "red", "is", "sweet"],
+      "correct": 1
+    },
+    {
+      "q": "Which word describes the noun in: 'She has a blue dress.'",
+      "options": ["She", "has", "blue", "dress"],
+      "correct": 2
+    },
+    {
+      "q": "Find the adjective: 'The tall giraffe eats leaves.'",
+      "options": ["tall", "giraffe", "eats", "leaves"],
+      "correct": 0
+    },
+    {
+      "q": "What is the adjective in: 'It is a sunny day.'",
+      "options": ["It", "is", "sunny", "day"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the adjective in the sentence: 'He has a fast car.'",
+      "options": ["fast", "car", "He", "has"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the word that tells us about the noun: 'The small mouse ran away.'",
+      "options": ["ran", "away", "mouse", "small"],
+      "correct": 3
+    },
+    {
+      "q": "Which word is an adjective? 'The fluffy cat slept.'",
+      "options": ["cat", "slept", "The", "fluffy"],
+      "correct": 3
+    },
+    {
+      "q": "Find the describing word: 'We saw a big elephant.'",
+      "options": ["big", "elephant", "saw", "We"],
+      "correct": 0
+    },
+    {
+      "q": "What is the adjective in: 'Cold water is refreshing.'",
+      "options": ["water", "is", "Cold", "refreshing"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the adjective: 'The clever fox hid.'",
+      "options": ["hid", "clever", "fox", "The"],
+      "correct": 1
+    },
+    {
+      "q": "Which word describes the noun in: 'Mom baked a sweet cake.'",
+      "options": ["Mom", "baked", "cake", "sweet"],
+      "correct": 3
+    },
+    {
+      "q": "Find the adjective: 'An old man walked slowly.'",
+      "options": ["slowly", "walked", "old", "man"],
+      "correct": 2
+    },
+    {
+      "q": "What is the adjective in: 'The loud dog barked.'",
+      "options": ["loud", "dog", "barked", "The"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the adjective: 'I have three pencils.'",
+      "options": ["I", "have", "three", "pencils"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the adjective: 'The green grass looks nice.'",
+      "options": ["green", "grass", "looks", "nice"],
+      "correct": 0
+    },
+    {
+      "q": "Which word describes the noun in: 'He wore a clean shirt.'",
+      "options": ["He", "wore", "clean", "shirt"],
+      "correct": 2
+    },
+    {
+      "q": "Find the adjective: 'The hot soup burned my tongue.'",
+      "options": ["soup", "hot", "burned", "tongue"],
+      "correct": 1
+    },
+    {
+      "q": "What is the adjective in: 'She bought a round ball.'",
+      "options": ["She", "bought", "round", "ball"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the adjective: 'The happy child laughed.'",
+      "options": ["happy", "child", "laughed", "The"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the adjective: 'A dark room is scary.'",
+      "options": ["room", "dark", "is", "scary"],
+      "correct": 1
+    },
+    {
+      "q": "Which word describes the noun in: 'We ate juicy mangoes.'",
+      "options": ["We", "ate", "juicy", "mangoes"],
+      "correct": 2
+    },
+    {
+      "q": "Find the adjective: 'The soft pillow felt good.'",
+      "options": ["pillow", "felt", "soft", "good"],
+      "correct": 2
+    },
+    {
+      "q": "What is the adjective in: 'My brother has a loud voice.'",
+      "options": ["loud", "voice", "brother", "has"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the adjective: 'There are ten birds in the tree.'",
+      "options": ["birds", "tree", "ten", "are"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the adjective: 'The sweet honey is sticky.'",
+      "options": ["sticky", "honey", "sweet", "The"],
+      "correct": 2
+    },
+    {
+      "q": "Which word is an adjective? 'A fierce tiger chased the deer.'",
+      "options": ["fierce", "tiger", "chased", "deer"],
+      "correct": 0
+    },
+    {
+      "q": "Find the adjective: 'The heavy box fell down.'",
+      "options": ["down", "box", "fell", "heavy"],
+      "correct": 3
+    },
+    {
+      "q": "What is the adjective in: 'That is a long road.'",
+      "options": ["That", "road", "long", "is"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the adjective: 'The brave soldier fought.'",
+      "options": ["brave", "soldier", "fought", "The"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the adjective: 'She wrote with a sharp pencil.'",
+      "options": ["pencil", "sharp", "wrote", "She"],
+      "correct": 1
+    }
+  ],
+  "advanced": [
+    {
+      "q": "What is the comparative form of the adjective 'tall'?",
+      "options": ["tallest", "taller", "more tall", "as tall"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the superlative adjective in: 'Mount Everest is the highest mountain.'",
+      "options": ["Mount", "mountain", "highest", "is"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct comparative form for 'good':",
+      "options": ["gooder", "best", "better", "more good"],
+      "correct": 2
+    },
+    {
+      "q": "Which word is a proper adjective? 'I love eating Italian food.'",
+      "options": ["love", "Italian", "food", "eating"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the adjective of quality in: 'The magnificent palace stood on the hill.'",
+      "options": ["magnificent", "palace", "hill", "stood"],
+      "correct": 0
+    },
+    {
+      "q": "What type of adjective is underlined/capitalized in: 'THIS book belongs to me.'",
+      "options": ["Demonstrative", "Quantitative", "Interrogative", "Possessive"],
+      "correct": 0
+    },
+    {
+      "q": "Find the quantitative adjective in: 'He ate enough food.'",
+      "options": ["ate", "food", "enough", "He"],
+      "correct": 2
+    },
+    {
+      "q": "What is the superlative form of 'happy'?",
+      "options": ["happier", "happiest", "more happy", "happyest"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct possessive adjective: 'The dog wagged ___ tail.'",
+      "options": ["his", "its", "their", "your"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the interrogative adjective: 'Whose jacket is this?'",
+      "options": ["jacket", "this", "Whose", "is"],
+      "correct": 2
+    },
+    {
+      "q": "What is the correct comparative form of 'difficult'?",
+      "options": ["difficulter", "more difficult", "most difficult", "difficulter"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the adjective in: 'Several students passed the difficult test.'",
+      "options": ["passed", "test", "Several", "students"],
+      "correct": 2
+    },
+    {
+      "q": "Which word acts as a demonstrative adjective? 'Those flowers are blooming.'",
+      "options": ["Those", "flowers", "are", "blooming"],
+      "correct": 0
+    },
+    {
+      "q": "What is the superlative form of 'bad'?",
+      "options": ["baddest", "worse", "worst", "more bad"],
+      "correct": 2
+    },
+    {
+      "q": "Find the adjective of quantity: 'There is little water left in the jug.'",
+      "options": ["water", "little", "jug", "left"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct order of adjectives: 'She bought a ___ table.'",
+      "options": ["wooden round small", "small round wooden", "round small wooden", "small wooden round"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the proper adjective derived from 'China':",
+      "options": ["Chines", "Chinese", "China", "Chinian"],
+      "correct": 1
+    },
+    {
+      "q": "What is the comparative form of 'bright'?",
+      "options": ["brightest", "more bright", "brighter", "brightger"],
+      "correct": 2
+    },
+    {
+      "q": "Which is an adjective indicating number (Numeral Adjective)? 'All men must die.'",
+      "options": ["men", "must", "die", "All"],
+      "correct": 3
+    },
+    {
+      "q": "Identify the adjective in: 'The weather today is extremely windy.'",
+      "options": ["weather", "today", "extremely", "windy"],
+      "correct": 3
+    },
+    {
+      "q": "What is the superlative form of 'intelligent'?",
+      "options": ["intelligenter", "more intelligent", "most intelligent", "intelligentest"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct adjective to complete: 'He has ___ friends than me.'",
+      "options": ["less", "fewer", "fewest", "least"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the descriptive adjective in: 'An honest man is respected everywhere.'",
+      "options": ["honest", "man", "respected", "everywhere"],
+      "correct": 0
+    },
+    {
+      "q": "What kind of adjective is the word 'each' in 'Each boy received a prize'?",
+      "options": ["Demonstrative", "Distributive", "Interrogative", "Quantitative"],
+      "correct": 1
+    },
+    {
+      "q": "Find the comparative form of 'far':",
+      "options": ["farer", "farthest", "further", "more far"],
+      "correct": 2
+    },
+    {
+      "q": "Which word is a possessive adjective in: 'This is my favorite book.'",
+      "options": ["This", "favorite", "my", "book"],
+      "correct": 2
+    },
+    {
+      "q": "What is the correct superlative form of 'little'?",
+      "options": ["littlest", "less", "least", "littler"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the adjective in: 'The museum has a collection of ancient coins.'",
+      "options": ["museum", "collection", "ancient", "coins"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct form: 'This building is ___ than that one.'",
+      "options": ["taller", "tall", "tallest", "more tall"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the adjective clause/modifier word indicating origin: 'We love Japanese cars.'",
+      "options": ["love", "Japanese", "cars", "We"],
+      "correct": 1
+    }
+  ]
+}
