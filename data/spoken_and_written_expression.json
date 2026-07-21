@@ -1,0 +1,306 @@
+{
+  "basic": [
+    {
+      "q": "Which of the following is an appropriate formal greeting for an email to a teacher?",
+      "options": ["Hey dude,", "Dear Mr. Smith,", "What's up,", "Yo teacher,"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct spoken response when someone says, 'Thank you so much!'",
+      "options": ["You're welcome!", "I don't care.", "Stop it.", "Goodbye."],
+      "correct": 0
+    },
+    {
+      "q": "Which sentence is written in informal/conversational English?",
+      "options": ["I am desirous of purchasing an automobile.", "I wanna grab some grub with my mates.", "Please kindly expedite this inquiry.", "We shall proceed to the venue."],
+      "correct": 1
+    },
+    {
+      "q": "What is the standard closing for a professional business email?",
+      "options": ["Yours truly, / Sincerely,", "Later alligator,", "Peace out,", "XOXO,"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the polite way to ask someone to close the window in a classroom:",
+      "options": ["Shut that window right now!", "Hey, close the window.", "Could you please close the window?", "Window, close yourself."],
+      "correct": 2
+    },
+    {
+      "q": "Which expression is commonly used to start a phone conversation informally?",
+      "options": ["State your identity.", "Hello, who is speaking to this receiver?", "Hey, what's up?", "Salutations."],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct written expression for apologizing in a formal letter:",
+      "options": ["My bad for messing up.", "Oops, sorry about that.", "Please accept my sincerest apologies for the oversight.", "Whatever, get over it."],
+      "correct": 2
+    },
+    {
+      "q": "Which phrase is best used to express agreement in a discussion?",
+      "options": ["I totally agree with your point.", "You are completely wrong.", "That makes no sense.", "Whatever you say is dumb."],
+      "correct": 0
+    },
+    {
+      "q": "Select the correct spoken query when you didn't hear what someone said:",
+      "options": ["Speak louder, idiot.", "Pardon? / Could you say that again, please?", "What did you mutter?", "Silence yourself."],
+      "correct": 1
+    },
+    {
+      "q": "Which of these is a written greeting suitable for a close friend?",
+      "options": ["Dear Sir or Madam,", "To whom it may concern,", "Hey Sarah,", "Respected Principal,"],
+      "correct": 2
+    },
+    {
+      "q": "What is the appropriate response when someone sneezes?",
+      "options": ["Good job!", "Bless you!", "Silence!", "How rude!"],
+      "correct": 1
+    },
+    {
+      "q": "Which sentence demonstrates correct written capitalization for a title?",
+      "options": ["to kill a mockingbird", "To Kill A Mockingbird", "To Kill a Mockingbird", "to Kill a mockingbird"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the best expression to introduce yourself in a new group:",
+      "options": ["Listen to me, I am John.", "Hi everyone, my name is John.", "John is here, deal with it.", "You guys know me as John."],
+      "correct": 1
+    },
+    {
+      "q": "Which phrase is ideal for asking for directions politely in public?",
+      "options": ["Where is the station, move!", "Excuse me, could you tell me how to get to the station?", "Give me directions to the station now.", "Hey you, station map, where?"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the option that represents written slang rather than standard English:",
+      "options": ["I am looking forward to our meeting.", "LOL, that was hilarious!", "Please let me know your availability.", "We appreciate your prompt response."],
+      "correct": 1
+    },
+    {
+      "q": "How should you politely decline an invitation over the phone?",
+      "options": ["No way am I coming to your lame party.", "I'd love to, but unfortunately, I already have plans.", "Your party sounds boring, bye.", "I'm not showing up."],
+      "correct": 1
+    },
+    {
+      "q": "Which sentence is written correctly with proper punctuation and spacing?",
+      "options": ["I went to the store, and I bought apples, bananas, and oranges.", "I went to the store and I bought apples bananas and oranges.", "i went to the store.and bought apples, bananas and oranges.", "I went, to the store and, bought apples bananas and, oranges."],
+      "correct": 0
+    },
+    {
+      "q": "What is a common spoken phrase to wish someone good luck before a test?",
+      "options": ["Break a leg!", "Fail miserably!", "Don't bother trying!", "Catch a cold!"],
+      "correct": 0
+    },
+    {
+      "q": "Which option is an example of written hyperbole?",
+      "options": ["The backpack weighed ten pounds.", "I have told you a million times to clean your room.", "She walked to the grocery store.", "The car is blue."],
+      "correct": 1
+    },
+    {
+      "q": "Choose the most professional response to a job interview question: 'Why do you want this job?'",
+      "options": ["Because I need money for video games.", "I am passionate about this field and want to contribute my skills to your team.", "Because my mom told me to apply.", "I don't really know, whatever."],
+      "correct": 1
+    },
+    {
+      "q": "What is the polite spoken way to interrupt someone speaking in a meeting?",
+      "options": ["Shut up, let me talk.", "Excuse me, may I add something here?", "You're talking too much now.", "Move aside, my turn."],
+      "correct": 1
+    },
+    {
+      "q": "Which sentence uses the correct passive voice for formal written reports?",
+      "options": ["We made a lot of mistakes during the experiment.", "Mistakes were made during the experiment.", "Somebody messed up the experiment badly.", "You guys failed the experiment."],
+      "correct": 1
+    },
+    {
+      "q": "How do you politely express disagreement in a group conversation?",
+      "options": ["You are totally clueless.", "I see it a bit differently because...", "That is the stupidest idea ever.", "Wrong!"],
+      "correct": 1
+    },
+    {
+      "q": "Which phrase is appropriate for starting a formal presentation?",
+      "options": ["Hey folks, listen up.", "Good morning, everyone, and welcome to my presentation on...", "What is up guys, let's roll.", "Yo, check this out."],
+      "correct": 1
+    },
+    {
+      "q": "Identify the sentence that avoids gender-biased language for writing:",
+      "options": ["Every policeman must do his duty.", "Every police officer must do his or her duty (or their duty).", "Every fireman must save lives.", "The chairman will handle the meeting."],
+      "correct": 1
+    },
+    {
+      "q": "What is a standard spoken phrase when leaving a social gathering?",
+      "options": ["Get out of my sight.", "I am vacating the premises.", "It was great seeing you! Have a good night!", "Silence descends, I depart."],
+      "correct": 2
+    },
+    {
+      "q": "Which written format is correct for addressing an envelope?",
+      "options": ["Name / City / Street / Country (random order)", "Name, Street Address, City, State/Province, Postal Code", "Postal Code, Name, City, Street", "State, Country, Street, Name"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the best spoken expression to offer assistance to a customer:",
+      "options": ["What do you want?", "Can I help you find something today?", "Go away unless you're buying.", "Why are you here?"],
+      "correct": 1
+    },
+    {
+      "q": "Which sentence is written with concise clarity, avoiding wordiness?",
+      "options": ["Due to the fact that it was raining, we stayed inside.", "Because it was raining, we stayed inside.", "By reason of the precipitation event, we remained indoors.", "In view of the fact of rain, our stay was indoors."],
+      "correct": 1
+    },
+    {
+      "q": "What is the standard spoken phrase to accept an apology?",
+      "options": ["Don't worry about it; mistakes happen.", "You should feel terrible.", "I accept your groveling.", "Never speak to me again."],
+      "correct": 0
+    }
+  ],
+  "advanced": [
+    {
+      "q": "Identify the stylistic register of the following text: 'Pursuant to our recent telephonic conference, enclosed please find the requested documentation.'",
+      "options": ["Colloquial / Slang", "Formal / Legalese professional", "Intimate family speech", "Casual conversational"],
+      "correct": 1
+    },
+    {
+      "q": "Which rhetorical device is employed in the written phrase: 'The wind whispered through the ancient trees.'",
+      "options": ["Personification", "Onomatopoeia", "Hyperbole", "Oxymoron"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the most tactful and diplomatic spoken expression to reject a proposal during negotiations:",
+      "options": ["This proposal is completely ridiculous and unacceptable.", "We appreciate the effort, but unfortunately, this terms alignment does not meet our current strategic parameters.", "No way are we agreeing to this junk.", "Take this back and try again."],
+      "correct": 1
+    },
+    {
+      "q": "What is the primary characteristic of 'phatic communication' in spoken expression?",
+      "options": ["Conveying complex data sets", "Establishing social rapport and maintaining social contact rather than sharing information (e.g., 'Nice weather today!')", "Giving strict commands", "Translating foreign codes"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the error in tone or register in a professional cover letter:",
+      "options": ["'I am writing to express my strong interest in the marketing position.'", "'I'm stoked to crush it at your company and make bank.'", "'Please find attached my resume for your review.'", "'Thank you for considering my application.'"],
+      "correct": 1
+    },
+    {
+      "q": "Which written sentence best employs parallel structure?",
+      "options": ["She likes reading, writing, and to swim.", "She likes reading, writing, and swimming.", "She likes to read, writing, and swim.", "She likes read, write, and swim."],
+      "correct": 1
+    },
+    {
+      "q": "In sociolinguistics, what does 'code-switching' refer to in spoken expression?",
+      "options": ["Switching computer programming languages while talking", "Alternating between two or more languages or language varieties in conversation", "Changing the tone of voice from low to high", "Speaking in a secret whisper code"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the sentence that corrects a dangling modifier in written expression:",
+      "options": ["Walking down the street, the towering skyscraper came into view.", "While I was walking down the street, the towering skyscraper came into view.", "Walking down the street, John saw the towering skyscraper come into view.", "Both b and c successfully resolve the dangling modifier."],
+      "correct": 3
+    },
+    {
+      "q": "What is the pragmatic function of hedging expressions like 'perhaps', 'it seems', or 'sort of' in spoken discourse?",
+      "options": ["To show extreme arrogance and absolute certainty", "To soften assertions, reduce social friction, and express politeness or uncertainty", "To confuse the listener intentionally", "To increase grammatical complexity"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the nuance of irony in the following spoken statement: 'Oh, fantastic! Another flat tire on my way to an important interview.'",
+      "options": ["The speaker is genuinely overjoyed about the flat tire.", "The speaker means the exact opposite of what the literal words express, conveying frustration.", "The speaker is asking a rhetorical question.", "The speaker is using a metaphor."],
+      "correct": 1
+    },
+    {
+      "q": "Which written transition word indicates a concessive relationship (acknowledging an opposing point)?",
+      "options": ["Furthermore", "Consequently", "Nonetheless / Notwithstanding", "Specifically"],
+      "correct": 2
+    },
+    {
+      "q": "What does 'maxim of quantity' entail in Grice's Cooperative Principle for conversation?",
+      "options": ["Make your contribution as informative as required, neither more nor less.", "Do not say what you believe to be false.", "Be relevant.", "Be brief and orderly."],
+      "correct": 0
+    },
+    {
+      "q": "Choose the sentence that best eliminates nominalization to achieve a vigorous, concise writing style:",
+      "options": ["The committee made a decision regarding the implementation of the policy.", "The committee decided to implement the policy.", "The committee reached a conclusion about the execution of policy changes.", "An agreement was arrived at by the committee concerning policy."],
+      "correct": 1
+    },
+    {
+      "q": "Identify the stylistic fault known as 'mixed metaphors' in written composition:",
+      "options": ["'Let's cross that bridge when we burn it.'", "'The early bird catches the worm.'", "'Actions speak louder than words.'", "'Time is a thief.'"],
+      "correct": 0
+    },
+    {
+      "q": "What is the main purpose of an 'aporia' in advanced rhetorical writing?",
+      "options": ["To state a factual conclusion boldly", "To express simulated or genuine doubt about an issue to engage the reader's critical thinking", "To list chronological data", "To describe scenic elements"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the most appropriate spoken phrasing for de-escalating a tense customer service interaction:",
+      "options": ["Calm down, you are making a scene over nothing.", "I completely understand your frustration, and I am personally going to help resolve this right now.", "It's not my fault, talk to my manager.", "Stop yelling or I will hang up."],
+      "correct": 1
+    },
+    {
+      "q": "Which written sentence exhibits correct coordination of ideas using a semicolon and conjunctive adverb?",
+      "options": ["Sales increased by 20%; therefore we expanded our workforce.", "Sales increased by 20%, therefore, we expanded our workforce.", "Sales increased by 20% therefore; we expanded our workforce.", "Sales increased by 20%: therefore, we expanded our workforce."],
+      "correct": 0
+    },
+    {
+      "q": "In spoken discourse analysis, what are 'backchannel signals' (e.g., 'mhm', 'right', 'I see')?",
+      "options": ["Hidden messages encoded in speech", "Verbal noises indicating that the listener is following and engaging with the speaker without taking the floor", "Signals used to interrupt the speaker aggressively", "Audio feedback errors in telephone lines"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the rhetorical figure of speech in: 'I have mountains of paperwork to get through.'",
+      "options": ["Litotes", "Hyperbole", "Metonymy", "Euphemism"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the best example of a euphemism used in professional corporate written communication:",
+      "options": ["Firing lazy workers immediately", "Right-sizing / Workforce optimization / Transitioning personnel", "Throwing employees out the door", "Slashing payroll drastically"],
+      "correct": 1
+    },
+    {
+      "q": "What distinguishes an 'active voice' preference in modern professional writing?",
+      "options": ["It obscures responsibility and creates ambiguity.", "It places the agent (subject) performing the action upfront, creating clarity, directness, and stronger engagement.", "It is strictly forbidden in academic journals.", "It makes sentences unnecessarily long."],
+      "correct": 1
+    },
+    {
+      "q": "Identify the syntactic structure known as 'anaphora' in persuasive writing or speeches:",
+      "options": ["The repetition of a word or phrase at the beginning of successive clauses (e.g., 'I have a dream...')", "The omission of conjunctions between words", "The reversal of grammatical structures in successive phrases", "The use of contrasting ideas in parallel balance"],
+      "correct": 0
+    },
+    {
+      "q": "What is the primary conversational role of 'turn-taking yielding cues' in spoken dialogue?",
+      "options": ["Signals sent by a speaker (via intonation drop, eye contact, or completion of a syntactic unit) indicating that the listener can now speak", "Instructions on how to navigate a physical road", "A mechanism to prevent anyone else from talking ever again", "Turning the volume up on a microphone"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the grammatically and stylistically pristine sentence:",
+      "options": ["Whomsoever is responsible for this error must correct it immediately.", "Whoever is responsible for this error must correct it immediately.", "Whomever is responsible for this error must correct it immediately.", "Who is responsible for this error must correct it themselves."],
+      "correct": 1
+    },
+    {
+      "q": "What is the function of a 'litotes' (e.g., 'It is not insignificant') in advanced expression?",
+      "options": ["To exaggerate a claim massively", "To express an affirmative idea by negating its opposite (ironic understatement for emphasis)", "To confuse the reader with double negatives", "To ask a direct question"],
+      "correct": 1
+    },
+    {
+      "q": "Which written layout guideline improves readability in professional technical documentation?",
+      "options": ["Using dense paragraphs of 500 words each without headings", "Utilizing clear headings, bulleted lists, adequate white space, and chunking information", "Using five different font colors and italics for entire pages", "Writing entirely in all-caps text"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the conversational maxim violated if someone asks 'What time is it?' and you reply 'The sky is blue.'",
+      "options": ["Maxim of Quality", "Maxim of Relation (Relevance)", "Maxim of Manner", "Maxim of Quantity"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the sentence that corrects a faulty comparison in written expression:",
+      "options": ["The graphics of this console are better than older models.", "The graphics of this console are better than those of older models.", "This console has better graphics than older models.", "Both b and c provide grammatically sound comparisons."],
+      "correct": 3
+    },
+    {
+      "q": "What is the stylistic effect of using 'asysteton' (omitting conjunctions like 'and', 'or', 'but') in written rhetoric?",
+      "options": ["It slows down the reading pace significantly.", "It creates a fast-paced, breathless, dramatic, and impactful rhythm (e.g., 'Veni, vidi, vici').", "It makes the writing overly wordy and boring.", "It corrects punctuation errors."],
+      "correct": 1
+    },
+    {
+      "q": "In high-stakes professional spoken presentations, what is the strategic value of purposeful silence (pausing)?",
+      "options": ["It signals that the speaker forgot their speech and panicked.", "It provides cognitive processing time for the audience, emphasizes critical points, and eliminates filler words ('um', 'uh').", "It wastes valuable time allotted for the meeting.", "It shows a lack of preparation."],
+      "correct": 1
+    }
+  ]
+}
