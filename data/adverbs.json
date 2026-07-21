@@ -1,0 +1,306 @@
+{
+  "basic": [
+    {
+      "q": "Identify the adverb in the sentence: 'She walked slowly down the path.'",
+      "options": ["walked", "slowly", "down", "path"],
+      "correct": 1
+    },
+    {
+      "q": "Which word tells us *how* something happened in: 'The dog barked loudly.'",
+      "options": ["dog", "barked", "loudly", "The"],
+      "correct": 2
+    },
+    {
+      "q": "Find the adverb of time: 'We are going to the park today.'",
+      "options": ["park", "today", "going", "We"],
+      "correct": 1
+    },
+    {
+      "q": "What is the adverb in: 'He ran very fast.'",
+      "options": ["fast", "ran", "He", "very"],
+      "correct": 3
+    },
+    {
+      "q": "Choose the adverb that tells *where*: 'Please put the book here.'",
+      "options": ["book", "put", "here", "Please"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the adverb: 'Birds fly high in the sky.'",
+      "options": ["fly", "high", "sky", "Birds"],
+      "correct": 1
+    },
+    {
+      "q": "Which word is an adverb? 'The children played happily.'",
+      "options": ["played", "happily", "children", "The"],
+      "correct": 1
+    },
+    {
+      "q": "Find the adverb of time: 'I will call you tomorrow.'",
+      "options": ["call", "tomorrow", "will", "I"],
+      "correct": 1
+    },
+    {
+      "q": "What is the adverb in: 'She sang sweetly.'",
+      "options": ["She", "sang", "sweetly", "song"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the adverb: 'He always arrives on time.'",
+      "options": ["always", "arrives", "time", "on"],
+      "correct": 0
+    },
+    {
+      "q": "Which word tells *how*? 'The baby slept soundly.'",
+      "options": ["baby", "slept", "soundly", "The"],
+      "correct": 2
+    },
+    {
+      "q": "Find the adverb: 'Look outside, it is raining.'",
+      "options": ["raining", "outside", "Look", "is"],
+      "correct": 1
+    },
+    {
+      "q": "What is the adverb in: 'The sun shines brightly.'",
+      "options": ["sun", "shines", "brightly", "The"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the adverb: 'We ate our lunch early.'",
+      "options": ["ate", "lunch", "early", "We"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the adverb: 'The soldier fought bravely.'",
+      "options": ["bravely", "fought", "soldier", "The"],
+      "correct": 0
+    },
+    {
+      "q": "Which word tells *where*? 'Stand near the door.'",
+      "options": ["Stand", "door", "near", "the"],
+      "correct": 2
+    },
+    {
+      "q": "Find the adverb: 'She smiled cheerfully.'",
+      "options": ["She", "smiled", "cheerfully", "happy"],
+      "correct": 2
+    },
+    {
+      "q": "What is the adverb in: 'He never tells a lie.'",
+      "options": ["never", "tells", "lie", "He"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the adverb: 'The clean water flowed smoothly.'",
+      "options": ["clean", "water", "flowed", "smoothly"],
+      "correct": 3
+    },
+    {
+      "q": "Identify the adverb: 'Come here quickly.'",
+      "options": ["Come", "here", "quickly", "both b and c"],
+      "correct": 3
+    },
+    {
+      "q": "Which word describes the verb in: 'The old man walked briskly.'",
+      "options": ["old", "man", "walked", "briskly"],
+      "correct": 3
+    },
+    {
+      "q": "Find the adverb: 'She opened the box gently.'",
+      "options": ["opened", "box", "gently", "She"],
+      "correct": 2
+    },
+    {
+      "q": "What is the adverb in: 'They will arrive soon.'",
+      "options": ["They", "will", "arrive", "soon"],
+      "correct": 3
+    },
+    {
+      "q": "Choose the adverb: 'Please write neatly.'",
+      "options": ["Please", "write", "neatly", "paper"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the adverb: 'The wind blew fiercely.'",
+      "options": ["wind", "blew", "fiercely", "The"],
+      "correct": 2
+    },
+    {
+      "q": "Which word is an adverb? 'He often reads books.'",
+      "options": ["He", "often", "reads", "books"],
+      "correct": 1
+    },
+    {
+      "q": "Find the adverb: 'The cat jumped down.'",
+      "options": ["cat", "jumped", "down", "The"],
+      "correct": 2
+    },
+    {
+      "q": "What is the adverb in: 'She spoke softly to the baby.'",
+      "options": ["softly", "spoke", "baby", "She"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the adverb: 'The rabbit ran away.'",
+      "options": ["rabbit", "ran", "away", "The"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the adverb: 'He works hard every day.'",
+      "options": ["works", "hard", "day", "every"],
+      "correct": 1
+    }
+  ],
+  "advanced": [
+    {
+      "q": "What type of adverb is underlined in: 'She arrived *yesterday*.'",
+      "options": ["Adverb of Manner", "Adverb of Time", "Adverb of Place", "Adverb of Frequency"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the adverb of frequency in: 'He occasionally visits his grandparents.'",
+      "options": ["visits", "grandparents", "occasionally", "He"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct comparative form of the adverb 'fast':",
+      "options": ["faster", "fastest", "more fast", "fastily"],
+      "correct": 0
+    },
+    {
+      "q": "What is the superlative form of the adverb 'badly'?",
+      "options": ["worse", "worst", "more badly", "badliest"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the adverb of degree in: 'The tea is extremely hot.'",
+      "options": ["tea", "hot", "extremely", "is"],
+      "correct": 2
+    },
+    {
+      "q": "Which word functions as an interrogative adverb? 'Where did you put my keys?'",
+      "options": ["you", "put", "Where", "keys"],
+      "correct": 2
+    },
+    {
+      "q": "Find the relative adverb in: 'This is the house where I was born.'",
+      "options": ["house", "where", "born", "This"],
+      "correct": 1
+    },
+    {
+      "q": "What type of adverb is 'seldom'?",
+      "options": ["Adverb of Time", "Adverb of Frequency", "Adverb of Place", "Adverb of Degree"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct comparative form of the adverb 'carefully':",
+      "options": ["more carefully", "carefullier", "most carefully", "carefullyer"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the adverb modifying another adverb in: 'He ran remarkably fast.'",
+      "options": ["He", "ran", "remarkably", "fast"],
+      "correct": 2
+    },
+    {
+      "q": "What kind of adverb is 'everywhere' in 'I looked everywhere for my pen'?",
+      "options": ["Adverb of Manner", "Adverb of Time", "Adverb of Place", "Adverb of Degree"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct superlative form of the adverb 'well':",
+      "options": ["better", "best", "wellest", "most well"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the adverb in: 'Fortunately, the rain stopped before the match.'",
+      "options": ["rain", "stopped", "Fortunately", "match"],
+      "correct": 2
+    },
+    {
+      "q": "Which sentence contains an adverb of manner?",
+      "options": ["She arrived late.", "He drives carefully.", "They live nearby.", "I will go tomorrow."],
+      "correct": 1
+    },
+    {
+      "q": "What is the comparative form of 'early'?",
+      "options": ["earlier", "earliest", "more early", "earlyer"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the adverb of time in: 'I have already finished my homework.'",
+      "options": ["finished", "homework", "already", "I"],
+      "correct": 2
+    },
+    {
+      "q": "Which word is an adverb of degree? 'She is completely right.'",
+      "options": ["She", "right", "completely", "is"],
+      "correct": 2
+    },
+    {
+      "q": "Find the negative adverb in: 'Hardly had I entered the room when the phone rang.'",
+      "options": ["Hardly", "entered", "room", "rang"],
+      "correct": 0
+    },
+    {
+      "q": "What type of adverb is 'why' in 'Why are you late?'",
+      "options": ["Interrogative Adverb", "Relative Adverb", "Adverb of Manner", "Adverb of Degree"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct sentence with proper adverb placement:",
+      "options": ["He always is late.", "He is always late.", "Always he is late.", "Is he always late."],
+      "correct": 1
+    },
+    {
+      "q": "Identify the adverb modifying an adjective in: 'The test was surprisingly easy.'",
+      "options": ["test", "was", "surprisingly", "easy"],
+      "correct": 2
+    },
+    {
+      "q": "What is the superlative form of 'far' (adverbial distance)?",
+      "options": ["farther", "farthest", "further", "furthest"],
+      "correct": 1
+    },
+    {
+      "q": "Which word acts as an adverb of frequency? 'We usually eat dinner at 8 PM.'",
+      "options": ["dinner", "eat", "usually", "PM"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the adverb of place in: 'Please step inside.'",
+      "options": ["Please", "step", "inside", "None"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct form to complete: 'She sings ___ than her sister.'",
+      "options": ["good", "best", "better", "well"],
+      "correct": 2
+    },
+    {
+      "q": "What kind of adverb is 'too' in 'The box is too heavy to lift'?",
+      "options": ["Adverb of Degree", "Adverb of Manner", "Adverb of Place", "Adverb of Time"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the adverb in: 'He spoke so loudly that everyone heard.'",
+      "options": ["spoke", "loudly", "everyone", "heard"],
+      "correct": 1
+    },
+    {
+      "q": "Which sentence uses an adverb incorrectly?",
+      "options": ["She runs quickly.", "He sings loud.", "They work hard.", "I slept well."],
+      "correct": 1
+    },
+    {
+      "q": "What type of adverb answers the question 'How often?'",
+      "options": ["Adverb of Manner", "Adverb of Frequency", "Adverb of Place", "Adverb of Degree"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the relative adverb in: 'Do you know the time when the train arrives?'",
+      "options": ["time", "when", "train", "arrives"],
+      "correct": 1
+    }
+  ]
+}
