@@ -14,6 +14,26 @@
         .opt-btn { font-size: 18px; display: block; width: 100%; padding: 12px; margin: 8px 0; cursor: pointer; background: #f8f9fa; border: 1px solid #ccc; text-align: left; }
         .correct { background: #28a745 !important; color: white; }
         .nav-btn { padding: 10px 20px; margin: 20px 5px; cursor: pointer; }
+        .timer {
+            font-size: 14px;
+            color: #e74c3c;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .timer-bar-container {
+            width: 100%;
+            height: 8px;
+            background-color: #f1f2f6;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        .timer-bar {
+            width: 100%;
+            height: 100%;
+            background-color: #e74c3c;
+            transition: width 1s linear;
+        }
     </style>
 </head>
 <body>
@@ -36,6 +56,13 @@
             <button id="advanced" class="tab-btn" onclick="selectLevel('advanced')">Advanced</button>
         </div>
         <div id="score-board">Score: 0</div>
+        
+        <!-- Timer UI Components -->
+        <div class="timer" id="timerDisplay">Time remaining: 15s</div>
+        <div class="timer-bar-container">
+            <div class="timer-bar" id="timerBar"></div>
+        </div>
+
         <div id="quiz-area">
             <p id="question" style="font-size: 22px;"></p>
             <div id="options-container"></div>
@@ -51,22 +78,24 @@
 
 <script>
     let score = 0, currentLevel = 'basic', currentTopic = '', answered = false, currentData = {}, currentQ = 0;
+    let timer, timeLeft = 15, isAnswerLocked = false;
+
     const topics = [
-    "Spelling", 
-    "Number, Gender and Animal world", 
-    "Synonyms and Antonyms", 
-    "Nouns", 
-    "Pronouns", 
-    "Verbs", 
-    "Adjectives", 
-    "Adverbs", 
-    "Articles", 
-    "Prepositions", 
-    "Conjunctions", 
-    "Tenses", 
-    "Contractions and Jumbled Words; Punctuation", 
-    "Spoken and Written Expression"
-]; // Add all 14 names here
+        "Spelling", 
+        "Number, Gender and Animal world", 
+        "Synonyms and Antonyms", 
+        "Nouns", 
+        "Pronouns", 
+        "Verbs", 
+        "Adjectives", 
+        "Adverbs", 
+        "Articles", 
+        "Prepositions", 
+        "Conjunctions", 
+        "Tenses", 
+        "Contractions and Jumbled Words; Punctuation", 
+        "Spoken and Written Expression"
+    ];
 
     const container = document.getElementById('topic-container');
     topics.forEach(t => {
@@ -104,6 +133,22 @@
     }
 
     function loadQuestion() {
+        clearInterval(timer);
+        timeLeft = 15;
+        isAnswerLocked = false;
+        
+        const timerDisplay = document.getElementById('timerDisplay');
+        const timerBar = document.getElementById('timerBar');
+        
+        timerDisplay.textContent = `Time remaining: ${timeLeft}s`;
+        timerBar.style.transition = 'none';
+        timerBar.style.width = '100%';
+        
+        void timerBar.offsetWidth; // Force reflow
+        timerBar.style.transition = 'width 1s linear';
+        
+        startTimer();
+
         if (!currentData[currentLevel]) return;
         answered = false;
         let d = currentData[currentLevel][currentQ];
@@ -111,29 +156,80 @@
         let cont = document.getElementById('options-container'); cont.innerHTML = '';
         d.options.forEach((opt, i) => {
             let btn = document.createElement('button'); btn.className = 'opt-btn'; btn.innerText = opt;
-            btn.onclick = () => { if(!answered) check(btn, i === d.correct); };
+            btn.onclick = () => { if(!answered && !isAnswerLocked) check(btn, i === d.correct); };
             cont.appendChild(btn);
         });
     }
 
     function check(btn, isCorrect) {
-        if(answered) return; answered = true;
+        if(answered || isAnswerLocked) return; 
+        answered = true;
+        isAnswerLocked = true;
+        clearInterval(timer);
+
         let d = currentData[currentLevel][currentQ];
-        document.getElementsByClassName('opt-btn')[d.correct].classList.add('correct');
+        let options = document.getElementsByClassName('opt-btn');
+        options[d.correct].classList.add('correct');
         
         let msg = new SpeechSynthesisUtterance("The correct answer is " + d.options[d.correct]);
         window.speechSynthesis.speak(msg);
 
-        if(isCorrect) { score++; document.getElementById('score-board').innerText = "Score: " + score; }
-        else { btn.style.background = "#dc3545"; btn.style.color = "white"; }
+        if(isCorrect) { 
+            score++; 
+            document.getElementById('score-board').innerText = "Score: " + score; 
+        } else { 
+            btn.style.background = "#dc3545"; 
+            btn.style.color = "white"; 
+        }
+
+        setTimeout(() => {
+            nextQuestion();
+        }, 1500);
     }
 
     function nextQuestion() {
-        if (currentQ < currentData[currentLevel].length - 1) { currentQ++; loadQuestion(); }
+        if (currentData[currentLevel] && currentQ < currentData[currentLevel].length - 1) { 
+            currentQ++; 
+            loadQuestion(); 
+        } else {
+            clearInterval(timer);
+            document.getElementById('quiz-area').innerHTML = "<h2>Level Completed! 🎉</h2>";
+        }
     }
 
     function prevQuestion() {
         if (currentQ > 0) { currentQ--; loadQuestion(); }
+    }
+
+    function startTimer() {
+        const timerDisplay = document.getElementById('timerDisplay');
+        const timerBar = document.getElementById('timerBar');
+
+        timer = setInterval(() => {
+            timeLeft--;
+            timerDisplay.textContent = `Time remaining: ${timeLeft}s`;
+            timerBar.style.width = `${(timeLeft / 15) * 100}%`;
+            if (timeLeft <= 0) {
+                clearInterval(timer);
+                autoForward();
+            }
+        }, 1000);
+    }
+
+    function autoForward() {
+        if (answered || isAnswerLocked) return;
+        isAnswerLocked = true;
+        answered = true;
+
+        let d = currentData[currentLevel][currentQ];
+        let options = document.getElementsByClassName('opt-btn');
+        if(options[d.correct]) {
+            options[d.correct].classList.add('correct');
+        }
+
+        setTimeout(() => { 
+            nextQuestion(); 
+        }, 1500);
     }
 </script>
 </body>
