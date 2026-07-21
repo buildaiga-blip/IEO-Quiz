@@ -1,0 +1,306 @@
+{
+  "basic": [
+    {
+      "q": "What is the correct contraction for 'do not'?",
+      "options": ["don't", "does'nt", "dont'", "do'nt"],
+      "correct": 0
+    },
+    {
+      "q": "Unscramble the letters to make a word: 't-a-c'",
+      "options": ["tac", "cat", "act", "tca"],
+      "correct": 1
+    },
+    {
+      "q": "Which punctuation mark belongs at the end of a question?",
+      "options": ["Period (.)", "Comma (,)", "Question mark (?)", "Exclamation mark (!)"],
+      "correct": 2
+    },
+    {
+      "q": "What does the contraction 'I'm' stand for?",
+      "options": ["I am", "I will", "I have", "I do"],
+      "correct": 0
+    },
+    {
+      "q": "Unscramble the jumbled words into a correct sentence: 'is / dog / brown / The'",
+      "options": ["Dog is the brown.", "The brown dog is.", "Brown is the dog.", "The dog is brown."],
+      "correct": 3
+    },
+    {
+      "q": "Choose the correctly punctuated sentence:",
+      "options": ["where is my book", "Where is my book.", "Where is my book?", "where is my book?"],
+      "correct": 2
+    },
+    {
+      "q": "What is the correct contraction for 'can not'?",
+      "options": ["Canno't", "Can't", "C'ant", "Cant'"],
+      "correct": 1
+    },
+    {
+      "q": "Unscramble the letters to find an animal: 'p-i-g'",
+      "options": ["gip", "igp", "pig", "pgi"],
+      "correct": 2
+    },
+    {
+      "q": "Which punctuation mark is used to show strong emotion or excitement?",
+      "options": ["Question mark (?)", "Exclamation mark (!)", "Period (.)", "Comma (,)"],
+      "correct": 1
+    },
+    {
+      "q": "What does the contraction 'he's' stand for? (Hint: can be more than one, pick the standard primary)",
+      "options": ["he is", "he has", "both a and b", "he was"],
+      "correct": 2
+    },
+    {
+      "q": "Unscramble the words: 'play / I / football'",
+      "options": ["Football I play.", "I play football.", "Play I football.", "I football play."],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct sentence with proper capitalization and punctuation:",
+      "options": ["i like apples.", "I like apples", "I like apples.", "i Like apples."],
+      "correct": 2
+    },
+    {
+      "q": "What is the contraction for 'they are'?",
+      "options": ["theyr'", "they're", "ther'ey", "theyr e"],
+      "correct": 1
+    },
+    {
+      "q": "Unscramble the letters to form a color: 'l-u-b-e'",
+      "options": ["lube", "ebul", "blue", "bule"],
+      "correct": 2
+    },
+    {
+      "q": "Where should commas be used in a list? Example: 'I bought apples bananas and oranges.'",
+      "options": ["Between every word", "To separate items in a series", "At the end of the sentence", "Before the first word"],
+      "correct": 1
+    },
+    {
+      "q": "What does the contraction 'we'll' stand for?",
+      "options": ["we well", "we will", "we all", "we shall"],
+      "correct": 1
+    },
+    {
+      "q": "Unscramble the sentence: 'sun / shines / The / brightly'",
+      "options": ["Brightly shines the sun.", "The sun brightly shines.", "The sun shines brightly.", "Shines the sun brightly."],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct punctuation for a complete statement or sentence:",
+      "options": ["Comma (,)", "Question mark (?)", "Period (.)", "Colon (:)"],
+      "correct": 2
+    },
+    {
+      "q": "What is the contraction for 'is not'?",
+      "options": ["isn't", "is'nt", "isnt'", "i'snt"],
+      "correct": 0
+    },
+    {
+      "q": "Unscramble the letters: 'h-o-o-l-c-s'",
+      "options": ["school", "shcool", "cshool", "schooL"],
+      "correct": 0
+    },
+    {
+      "q": "Which sentence uses a comma correctly in a date?",
+      "options": ["October 12 2026", "October, 12 2026", "October 12, 2026", "October 12 2026,"],
+      "correct": 2
+    },
+    {
+      "q": "What does the contraction 'didn't' stand for?",
+      "options": ["do not", "does not", "did not", "done not"],
+      "correct": 2
+    },
+    {
+      "q": "Unscramble the sentence: 'apple / an / eat / I'",
+      "options": ["Eat I an apple.", "I eat an apple.", "An apple I eat.", "I an eat apple."],
+      "correct": 1
+    },
+    {
+      "q": "What mark is used to show ownership (possessive)?",
+      "options": ["Apostrophe (')", "Hyphen (-)", "Slash (/)", "Colon (:)"],
+      "correct": 0
+    },
+    {
+      "q": "What is the contraction for 'they have'?",
+      "options": ["they've", "theyr'e", "theyv'e", "th'eyve"],
+      "correct": 0
+    },
+    {
+      "q": "Unscramble the letters to make a fruit: 'n-a-b-a-a-n'",
+      "options": ["bannaa", "banana", "banaana", "anaban"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly punctuated greeting in a friendly letter:",
+      "options": ["Dear Mom,", "Dear Mom.", "Dear, Mom", "Dear Mom?"],
+      "correct": 0
+    },
+    {
+      "q": "What does 'won't' expand to?",
+      "options": ["will not", "would not", "wonn not", "wo not"],
+      "correct": 0
+    },
+    {
+      "q": "Unscramble the sentence: 'blue / sky / The / is'",
+      "options": ["Blue is the sky.", "The sky is blue.", "Sky the is blue.", "Is the sky blue."],
+      "correct": 1
+    },
+    {
+      "q": "Which sentence shows correct punctuation for dialogue?",
+      "options": ["He said hello.", "\"Hello!\" he said.", "He said, Hello!", "He, said hello."],
+      "correct": 1
+    }
+  ],
+  "advanced": [
+    {
+      "q": "Identify the incorrect contraction expansion:",
+      "options": ["shan't = shall not", "let's = let us", "o'clock = of the clock", "y'all = you all (incorrect form)"],
+      "correct": 3
+    },
+    {
+      "q": "Unscramble the jumbled words into a grammatically complex sentence: 'hard / studied / she / exam / the / passed / she / so / that'",
+      "options": ["She studied hard so that she passed the exam.", "Passed she the exam so that she studied hard.", "Hard she studied so that passed the exam.", "So that she passed the exam she studied hard."],
+      "correct": 0
+    },
+    {
+      "q": "Where should a semicolon be correctly placed?",
+      "options": ["To end a standard declarative sentence", "To join two independent clauses closely related in thought", "Before every list of items", "To indicate high excitement"],
+      "correct": 1
+    },
+    {
+      "q": "What does the archaic or poetic contraction 'o'er' stand for?",
+      "options": ["hour", "over", "or", "order"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the sentence with correct punctuation regarding quotation marks and commas:",
+      "options": ["\"I am leaving,\" she said.", "\"I am leaving\", she said.", "She said \"I am leaving.\"", "Both a and c are correct depending on style guide."],
+      "correct": 3
+    },
+    {
+      "q": "Unscramble the sentence words: 'scarcely / had / she / arrived / when / telephone / ring / the / began'",
+      "options": ["Scarcely had she arrived when the telephone began to ring.", "The telephone began to ring when she scarcely had arrived.", "Had she scarcely arrived when began telephone the.", "When arrived she scarcely the telephone began to ring."],
+      "correct": 0
+    },
+    {
+      "q": "What is the expansion of the contraction 'shouldn't've'?",
+      "options": ["should not have", "should not of", "shall not have", "should have not"],
+      "correct": 0
+    },
+    {
+      "q": "Which punctuation mark is used to link words as a compound adjective (e.g., 'well-known author')?",
+      "options": ["Em dash (—)", "Hyphen (-)", "Colon (:)", "Parentheses ()"],
+      "correct": 1
+    },
+    {
+      "q": "Unscramble the letters to form a sophisticated vocabulary word: 'n-o-c-i-s-m-e-t-r-a-p'",
+      "options": ["romanticism", "contortionist", "compartment", "contraption"],
+      "correct": 0
+    },
+    {
+      "q": "What does the contraction 'y'all' syntactically represent in standard English grammar?",
+      "options": ["Singular second person", "Plural second person pronoun", "First person plural", "Third person plural"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correctly punctuated sentence using an em dash for dramatic pause:",
+      "options": ["She had one true love—music.", "She had one true love; music.", "She had one, true love music.", "She had one true love: music—"],
+      "correct": 0
+    },
+    {
+      "q": "Unscramble the words: 'persistence / ultimate / success / key / is / the / to'",
+      "options": ["Success is the ultimate key to persistence.", "Persistence is the key to ultimate success.", "Ultimate success is key to the persistence.", "The key to persistence is ultimate success."],
+      "correct": 1
+    },
+    {
+      "q": "What is the difference between a hyphen (-) and an en dash (–)?",
+      "options": ["En dash is used for ranges (e.g., pages 10–20); hyphen joins compound words.", "They are entirely identical.", "Hyphen is used for dashes in dialogue.", "En dash is shorter than a hyphen."],
+      "correct": 0
+    },
+    {
+      "q": "What does 'mightn't have' expand to?",
+      "options": ["might not have", "might have not", "might not of", "may not have"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the punctuation error in: 'Its a great day for a walk.'",
+      "options": ["Missing comma", "'Its' should be 'It's'", "Period should be question mark", "No error"],
+      "correct": 1
+    },
+    {
+      "q": "Unscramble the sentence: 'despite / challenges / the / team / won / championship / the'",
+      "options": ["The team won the championship despite the challenges.", "Despite the challenges the team won the championship.", "Both a and b are correct word orders.", "Challenges the team won despite championship."],
+      "correct": 2
+    },
+    {
+      "q": "What is the correct contraction for 'who is' or 'who has'?",
+      "options": ["who's", "whose", "who're", "who've"],
+      "correct": 0
+    },
+    {
+      "q": "Which sentence correctly uses parentheses?",
+      "options": ["He finally answered (after much hesitation) with a yes.", "He finally answered after much hesitation (with a yes).", "He (finally answered) after much hesitation with a yes.", "He finally answered after (much hesitation) with a yes."],
+      "correct": 0
+    },
+    {
+      "q": "Unscramble the letters to form a medical/scientific word: 's-y-m-p-t-o-m'",
+      "options": ["symptom", "sympotm", "stymptom", "symtom"],
+      "correct": 0
+    },
+    {
+      "q": "What does the contraction 'let's' stand for?",
+      "options": ["let is", "let us", "lets us", "let has"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the sentence where commas are correctly used around a non-restrictive clause:",
+      "options": ["My brother, who lives in Paris, is visiting.", "My brother who lives in Paris is visiting.", "My brother, who lives in Paris is visiting.", "My brother who lives in Paris, is visiting."],
+      "correct": 0
+    },
+    {
+      "q": "Unscramble the words: 'knowledge / power / is / true'",
+      "options": ["Power is true knowledge.", "True knowledge is power.", "Knowledge is true power.", "Is knowledge true power."],
+      "correct": 1
+    },
+    {
+      "q": "What is the contraction for 'there is'?",
+      "options": ["ther'es", "there's", "theres'", "the'res"],
+      "correct": 1
+    },
+    {
+      "q": "Which punctuation mark is used to indicate omitted words in a quotation?",
+      "options": ["Ellipsis (...)", "Parentheses ()", "Colon (:)", "Hyphen (-)"],
+      "correct": 0
+    },
+    {
+      "q": "Unscramble the sentence: 'innovation / distinguishes / leader / a / and / follower / a'",
+      "options": ["Innovation distinguishes between a leader and a follower.", "A leader and a follower distinguishes innovation.", "Distinguishes innovation a leader and a follower.", "A leader innovation distinguishes a follower."],
+      "correct": 0
+    },
+    {
+      "q": "What does 'mustn't' stand for?",
+      "options": ["must not", "must never", "must nought", "may not"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the correct usage of colon (:):",
+      "options": ["To introduce a list, explanation, or quotation after an independent clause", "To separate items in a short list", "To end an interrogative sentence", "To indicate an abrupt change of thought"],
+      "correct": 0
+    },
+    {
+      "q": "Unscramble the letters to form a word meaning 'abundant': 'p-l-e-n-t-i-f-u-l'",
+      "options": ["plentiful", "plentifull", "plentefull", "plantiful"],
+      "correct": 0
+    },
+    {
+      "q": "What does the contraction 'they'd' stand for?",
+      "options": ["they had / they would", "they did", "they do", "they should"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correctly punctuated sentence containing a conjunctive adverb transition:",
+      "options": ["The weather was severe; therefore, the flight was canceled.", "The weather was severe, therefore the flight was canceled.", "The weather was severe therefore; the flight was canceled.", "The weather was severe; therefore the flight was canceled."],
+      "correct": 0
+    }
+  ]
+}
