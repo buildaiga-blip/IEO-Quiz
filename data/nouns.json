@@ -1,26 +1,306 @@
 {
   "basic": [
-    { "q": "Identify the noun: The dog barked.", "options": ["Dog", "Barked", "The", "Fast"], "correct": 0 },
-    { "q": "Which of these is a place?", "options": ["School", "Eat", "Red", "Run"], "correct": 0 },
-    { "q": "Identify the noun: She has a red ball.", "options": ["She", "Has", "Ball", "Red"], "correct": 2 },
-    { "q": "Which is a naming word for a person?", "options": ["Teacher", "Jump", "Blue", "Slow"], "correct": 0 },
-    { "q": "Identify the noun: The sun is bright.", "options": ["Bright", "Sun", "Is", "The"], "correct": 1 },
-    { "q": "Which of these is an animal?", "options": ["Cat", "Sit", "Happy", "Big"], "correct": 0 },
-    { "q": "Identify the noun: I have a pen.", "options": ["Have", "Pen", "I", "A"], "correct": 1 },
-    { "q": "Which is a thing?", "options": ["Table", "Walk", "Tall", "He"], "correct": 0 },
-    { "q": "Identify the noun: The car is fast.", "options": ["Fast", "Car", "Is", "The"], "correct": 1 },
-    { "q": "Which of these is a fruit (noun)?", "options": ["Apple", "Eat", "Fast", "Run"], "correct": 0 }
+    {
+      "q": "Identify the noun in the sentence: 'The cat sleeps on the mat.'",
+      "options": ["sleeps", "on", "cat", "The"],
+      "correct": 2
+    },
+    {
+      "q": "Which word is a proper noun?",
+      "options": ["city", "dog", "London", "book"],
+      "correct": 2
+    },
+    {
+      "q": "Find the common noun in the list:",
+      "options": ["Delhi", "Rahul", "Mountain", "Taj Mahal"],
+      "correct": 2
+    },
+    {
+      "q": "What type of noun is 'happiness'?",
+      "options": ["Proper noun", "Abstract noun", "Collective noun", "Material noun"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the noun in: 'Birds fly in the sky.'",
+      "options": ["fly", "in", "Birds", "the"],
+      "correct": 2
+    },
+    {
+      "q": "Which word is a collective noun?",
+      "options": ["Flock", "Sheep", "Running", "Quickly"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the proper noun in the sentence: 'My friend John plays cricket.'",
+      "options": ["friend", "John", "plays", "cricket"],
+      "correct": 1
+    },
+    {
+      "q": "What is the plural form of 'child'?",
+      "options": ["childs", "childes", "children", "childrens"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the noun: 'The sun shines brightly.'",
+      "options": ["shines", "brightly", "The", "sun"],
+      "correct": 3
+    },
+    {
+      "q": "Which word is a material noun?",
+      "options": ["Gold", "Happiness", "Team", "Teacher"],
+      "correct": 0
+    },
+    {
+      "q": "What is the plural of 'tooth'?",
+      "options": ["teeth", "tooths", "toothes", "teeths"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the countable noun:",
+      "options": ["Water", "Chair", "Sugar", "Sand"],
+      "correct": 1
+    },
+    {
+      "q": "Find the abstract noun in the options:",
+      "options": ["Honesty", "Apple", "Table", "School"],
+      "correct": 0
+    },
+    {
+      "q": "What is the feminine gender of 'lion'?",
+      "options": ["lioness", "lioness", "lion", "lioness"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the noun: 'She bought a new dress.'",
+      "options": ["bought", "she", "dress", "new"],
+      "correct": 2
+    },
+    {
+      "q": "Which word is an uncountable noun?",
+      "options": ["Pen", "Milk", "Book", "Chair"],
+      "correct": 1
+    },
+    {
+      "q": "What is the plural form of 'mouse'?",
+      "options": ["mouses", "mices", "mice", "mouse"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the collective noun for a group of fish:",
+      "options": ["Herd", "School", "Pack", "Flock"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct noun type for 'Team':",
+      "options": ["Proper noun", "Collective noun", "Abstract noun", "Material noun"],
+      "correct": 1
+    },
+    {
+      "q": "What is the masculine gender of 'duck'?",
+      "options": ["drake", "duckling", "goose", "gander"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the noun in: 'Honesty is the best policy.'",
+      "options": ["Honesty", "best", "is", "the"],
+      "correct": 0
+    },
+    {
+      "q": "What is the plural form of 'leaf'?",
+      "options": ["leafs", "leaves", "leafes", "leave"],
+      "correct": 1
+    },
+    {
+      "q": "Which word is a common noun?",
+      "options": ["Amazon", "River", "Asia", "Tuesday"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the noun: 'The teacher wrote on the board.'",
+      "options": ["wrote", "on", "teacher", "the"],
+      "correct": 2
+    },
+    {
+      "q": "What is the plural form of 'man'?",
+      "options": ["mans", "men", "menes", "man"],
+      "correct": 1
+    },
+    {
+      "q": "Which noun names a quality or state?",
+      "options": ["Proper noun", "Abstract noun", "Material noun", "Common noun"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the noun in: 'Please close the door.'",
+      "options": ["please", "close", "door", "the"],
+      "correct": 2
+    },
+    {
+      "q": "What is the plural form of 'potato'?",
+      "options": ["potatos", "potatoes", "potato", "potatoe's"],
+      "correct": 1
+    },
+    {
+      "q": "Which word represents a material noun?",
+      "options": ["Silver", "Bravery", "Crowd", "Joy"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the noun: 'My dog barks at night.'",
+      "options": ["barks", "at", "dog", "night"],
+      "correct": 2
+    }
   ],
   "advanced": [
-    { "q": "What is the collective noun for a group of keys?", "options": ["Group", "Bunch", "Pack", "Herd"], "correct": 1 },
-    { "q": "Which is an abstract noun?", "options": ["Table", "Happiness", "Car", "City"], "correct": 1 },
-    { "q": "Identify the proper noun:", "options": ["London", "City", "Country", "Town"], "correct": 0 },
-    { "q": "What is the plural of 'child'?", "options": ["Childs", "Children", "Childes", "Childen"], "correct": 1 },
-    { "q": "Which is a collective noun for bees?", "options": ["Swarm", "Flock", "Herd", "Pack"], "correct": 0 },
-    { "q": "Identify the material noun:", "options": ["Gold", "Boy", "Kindness", "New York"], "correct": 0 },
-    { "q": "What is the plural of 'leaf'?", "options": ["Leafs", "Leaves", "Leafes", "Leavs"], "correct": 1 },
-    { "q": "Which is a common noun?", "options": ["River", "Ganga", "India", "Tuesday"], "correct": 0 },
-    { "q": "Identify the abstract noun:", "options": ["Bravery", "Pen", "Desk", "Dog"], "correct": 0 },
-    { "q": "What is the collective noun for birds?", "options": ["Flock", "School", "Pack", "Herd"], "correct": 0 }
+    {
+      "q": "Identify the noun clause in the sentence: 'I know what you did last summer.'",
+      "options": ["I know", "what you did last summer", "last summer", "you did"],
+      "correct": 1
+    },
+    {
+      "q": "What is the plural form of 'phenomenon'?",
+      "options": ["phenomenons", "phenomena", "phenomenas", "phenomeni"],
+      "correct": 1
+    },
+    {
+      "q": "Which of the following is a compound noun?",
+      "options": ["Happiness", "Swimming", "Toothbrush", "Quickly"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the correct possessive form of the plural noun 'ladies':",
+      "options": ["ladie's", "ladies'", "ladiese'", "ladies's"],
+      "correct": 1
+    },
+    {
+      "q": "What is the plural form of 'criterion'?",
+      "options": ["criterions", "criterias", "criteria", "criterii"],
+      "correct": 2
+    },
+    {
+      "q": "Which word functions as a gerund (verbal noun) in: 'Swimming is a great exercise.'",
+      "options": ["Swimming", "great", "exercise", "is"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the abstract noun derived from the verb 'grow':",
+      "options": ["grown", "growth", "growing", "grower"],
+      "correct": 1
+    },
+    {
+      "q": "What is the plural form of 'radius'?",
+      "options": ["radiuses", "radii", "radia", "radius"],
+      "correct": 1
+    },
+    {
+      "q": "Which sentence contains a noun in the appositive case?",
+      "options": ["John, the baker, arrived early.", "John is a baker.", "Baker John arrived.", "John baked bread."],
+      "correct": 0
+    },
+    {
+      "q": "What is the masculine counterpart of 'vixen'?",
+      "options": ["Fox", "Wolf", "Stag", "Hart"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the noun acting as an indirect object in: 'She gave her brother a gift.'",
+      "options": ["She", "brother", "gift", "gave"],
+      "correct": 1
+    },
+    {
+      "q": "What is the plural form of 'analysis'?",
+      "options": ["analysises", "analysises", "analyses", "analysi"],
+      "correct": 2
+    },
+    {
+      "q": "Which word is a mass (uncountable) noun that can sometimes be countable (e.g., 'two coffees')?",
+      "options": ["Information", "Coffee", "Furniture", "Equipment"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the abstract noun derived from the adjective 'wise':",
+      "options": ["wisely", "wisdom", "wiser", "wiseness"],
+      "correct": 1
+    },
+    {
+      "q": "What is the plural form of 'syllabus'?",
+      "options": ["syllabuses", "syllabi", "both a and b", "syllabii"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the function of the capitalized word: 'They elected him PRESIDENT.'",
+      "options": ["Subject", "Direct Object", "Object Complement", "Indirect Object"],
+      "correct": 2
+    },
+    {
+      "q": "What is the plural form of 'oasis'?",
+      "options": ["oasises", "oases", "oasi", "oasiz"],
+      "correct": 1
+    },
+    {
+      "q": "Which of these nouns is always plural in form and takes a plural verb?",
+      "options": ["News", "Mathematics", "Trousers", "Physics"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the proper noun turned common noun (eponym) in: 'He bought a sandwich for lunch.'",
+      "options": ["bought", "lunch", "sandwich", "He"],
+      "correct": 2
+    },
+    {
+      "q": "What is the plural form of 'formula'?",
+      "options": ["formulas", "formulae", "both a and b", "formuli"],
+      "correct": 2
+    },
+    {
+      "q": "Which noun has the same form in both singular and plural?",
+      "options": ["Child", "Deer", "Ox", "Mouse"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the noun phrase in: 'The exceptionally tall man walked away.'",
+      "options": ["walked away", "The exceptionally tall man", "tall man", "away"],
+      "correct": 1
+    },
+    {
+      "q": "What is the abstract noun form of the adjective 'deep'?",
+      "options": ["deeply", "deepness", "depth", "deep"],
+      "correct": 2
+    },
+    {
+      "q": "What is the plural form of 'appendix'?",
+      "options": ["appendixes", "appendices", "both a and b", "appendi"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the common gender noun:",
+      "options": ["Actor", "Orphan", "Waiter", "King"],
+      "correct": 1
+    },
+    {
+      "q": "What is the plural form of 'datum'?",
+      "options": ["datums", "data", "datia", "date"],
+      "correct": 1
+    },
+    {
+      "q": "Which sentence uses a collective noun with a plural verb (British English style for members acting individually)?",
+      "options": ["The committee is voting.", "The committee are divided in their opinions.", "The team wins the game.", "The family eats dinner."],
+      "correct": 1
+    },
+    {
+      "q": "What is the plural form of 'thesis'?",
+      "options": ["thesises", "theses", "thesi", "thesis"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the noun functioning as the subject complement in: 'She became a doctor.'",
+      "options": ["She", "became", "doctor", "a doctor"],
+      "correct": 2
+    },
+    {
+      "q": "What is the plural form of 'ox'?",
+      "options": ["oxes", "oxen", "oxes'", "ox"],
+      "correct": 1
+    }
   ]
 }
