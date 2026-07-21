@@ -1,0 +1,306 @@
+{
+  "basic": [
+    {
+      "q": "Identify the action word (verb) in the sentence: 'The cat sleeps on the mat.'",
+      "options": ["cat", "sleeps", "mat", "the"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct verb to complete the sentence: 'Birds ___ in the sky.'",
+      "options": ["swim", "fly", "read", "run"],
+      "correct": 1
+    },
+    {
+      "q": "Which word is a verb?",
+      "options": ["Apple", "Jump", "Happy", "Table"],
+      "correct": 1
+    },
+    {
+      "q": "Fill in the blank with the correct doing word: 'I ___ an apple every day.'",
+      "options": ["eat", "sleep", "write", "play"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the verb in: 'The sun shines brightly.'",
+      "options": ["sun", "brightly", "shines", "the"],
+      "correct": 2
+    },
+    {
+      "q": "Which of these is a verb showing movement?",
+      "options": ["Book", "Run", "Blue", "Chair"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct verb: 'Fish ___ in water.'",
+      "options": ["walk", "swim", "fly", "jump"],
+      "correct": 1
+    },
+    {
+      "q": "Find the verb in the sentence: 'She sings a sweet song.'",
+      "options": ["song", "sweet", "sings", "she"],
+      "correct": 2
+    },
+    {
+      "q": "What is the action word in: 'The boy kicks the ball.'",
+      "options": ["boy", "ball", "kicks", "the"],
+      "correct": 2
+    },
+    {
+      "q": "Which word is NOT a verb?",
+      "options": ["Dance", "Read", "House", "Write"],
+      "correct": 2
+    },
+    {
+      "q": "Complete the sentence: 'Monkeys ___ bananas.'",
+      "options": ["climb", "eat", "both a and b", "sleep"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the verb: 'Open the door, please.'",
+      "options": ["door", "please", "open", "the"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct verb for sound: 'Dogs ___ at night.'",
+      "options": ["meow", "barks", "barken", "bark"],
+      "correct": 3
+    },
+    {
+      "q": "Find the verb in: 'We play cricket in the evening.'",
+      "options": ["play", "cricket", "evening", "we"],
+      "correct": 0
+    },
+    {
+      "q": "What is the verb in the sentence: 'The baby cries.'",
+      "options": ["baby", "cries", "the", "none"],
+      "correct": 1
+    },
+    {
+      "q": "Which word is an action verb?",
+      "options": ["Quickly", "Jump", "Red", "Tall"],
+      "correct": 1
+    },
+    {
+      "q": "Fill in the blank: 'Mother ___ delicious food.'",
+      "options": ["cooks", "reads", "writes", "runs"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the verb in: 'The star twinkles in the sky.'",
+      "options": ["star", "sky", "twinkles", "the"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct action word: 'He can ___ a bicycle.'",
+      "options": ["ride", "read", "speak", "eat"],
+      "correct": 0
+    },
+    {
+      "q": "Find the verb in: 'Clean your room.'",
+      "options": ["room", "clean", "your", "none"],
+      "correct": 1
+    },
+    {
+      "q": "What is the verb in: 'Water flows down the hill.'",
+      "options": ["water", "hill", "flows", "down"],
+      "correct": 2
+    },
+    {
+      "q": "Which word describes an action you do with a book?",
+      "options": ["Eat", "Read", "Kick", "Run"],
+      "correct": 1
+    },
+    {
+      "q": "Complete the sentence: 'Farmers ___ crops in the field.'",
+      "options": ["grow", "fly", "swim", "drive"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the verb in: 'The wind blows hard.'",
+      "options": ["wind", "blows", "hard", "the"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct verb: 'Fire ___ heat.'",
+      "options": ["gives", "takes", "eats", "drinks"],
+      "correct": 0
+    },
+    {
+      "q": "Find the verb in: 'Please sit on the chair.'",
+      "options": ["chair", "sit", "please", "on"],
+      "correct": 1
+    },
+    {
+      "q": "What action word goes with a pencil?",
+      "options": ["Write", "Eat", "Sleep", "Throw"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the verb: 'Frogs hop on the grass.'",
+      "options": ["frogs", "grass", "hop", "the"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct verb: 'The clock ___ tick-tock.'",
+      "options": ["makes", "says", "speaks", "tells"],
+      "correct": 0
+    },
+    {
+      "q": "Find the verb in the sentence: 'Birds build nests.'",
+      "options": ["birds", "nests", "build", "none"],
+      "correct": 2
+    }
+  ],
+  "advanced": [
+    {
+      "q": "Identify the linking verb in the sentence: 'The soup smells delicious.'",
+      "options": ["soup", "smells", "delicious", "the"],
+      "correct": 1
+    },
+    {
+      "q": "Which of the following sentences contains a transitive verb?",
+      "options": ["She sleeps soundly.", "He opened the window.", "The flower bloomed.", "Birds fly."],
+      "correct": 1
+    },
+    {
+      "q": "Identify the auxiliary (helping) verb in: 'They are playing football.'",
+      "options": ["playing", "football", "are", "they"],
+      "correct": 2
+    },
+    {
+      "q": "Which sentence contains an intransitive verb (no direct object)?",
+      "options": ["He kicked the ball.", "She wrote a letter.", "The baby laughed.", "They painted the wall."],
+      "correct": 2
+    },
+    {
+      "q": "What is the past participle form of the irregular verb 'write'?",
+      "options": ["wrote", "writed", "written", "writing"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the infinitive verb phrase in: 'She wants to learn French.'",
+      "options": ["She wants", "to learn", "learn French", "wants to"],
+      "correct": 1
+    },
+    {
+      "q": "Which word functions as a gerund (verb acting as a noun) in: 'Swimming is great exercise.'",
+      "options": ["Swimming", "great", "exercise", "is"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the modal auxiliary verb in: 'You must submit your project by Friday.'",
+      "options": ["submit", "must", "project", "Friday"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct past tense form of the irregular verb 'catch':",
+      "options": ["catched", "caught", "catchs", "catching"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the transitive verb in: 'The chef prepared a wonderful meal.'",
+      "options": ["chef", "prepared", "meal", "wonderful"],
+      "correct": 1
+    },
+    {
+      "q": "Which of these is a stative verb (expressing a state of being or feeling rather than an action)?",
+      "options": ["Run", "Believe", "Jump", "Throw"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the main verb phrase in: 'She has finished her homework.'",
+      "options": ["has finished", "has", "finished", "homework"],
+      "correct": 0
+    },
+    {
+      "q": "What is the past tense of the irregular verb 'lie' (to recline)?",
+      "options": ["lied", "lay", "lain", "laying"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the verb mood used in giving a command: 'Turn off the lights.'",
+      "options": ["Indicative", "Imperative", "Subjunctive", "Interrogative"],
+      "correct": 1
+    },
+    {
+      "q": "Which sentence uses the passive voice verb correctly?",
+      "options": ["The dog chased the cat.", "The cat was chased by the dog.", "The cat chased the dog.", "The dog is chasing."],
+      "correct": 1
+    },
+    {
+      "q": "Identify the participle functioning as an adjective in: 'The crying baby woke everyone.'",
+      "options": ["baby", "woke", "crying", "everyone"],
+      "correct": 2
+    },
+    {
+      "q": "What is the correct base form (infinitive without 'to') of the past form 'led'?",
+      "options": ["lead", "led", "leed", "leden"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the verb acting as a subject complement in: 'Her hobby is painting.'",
+      "options": ["hobby", "is", "painting", "her"],
+      "correct": 2
+    },
+    {
+      "q": "Which sentence is in the subjunctive mood expressing a hypothetical wish?",
+      "options": ["I know the answer.", "I wish I were a bird.", "Are you coming?", "Close the door."],
+      "correct": 1
+    },
+    {
+      "q": "Identify the phrasal verb in the sentence: 'Please look after my dog while I am away.'",
+      "options": ["look after", "am away", "please look", "while I"],
+      "correct": 0
+    },
+    {
+      "q": "What is the past participle of 'ring' (as in a bell)?",
+      "options": ["rang", "ringed", "rung", "ringing"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the correct verb agreement: 'Neither the teacher nor the students ___ present.'",
+      "options": ["was", "were", "is", "has been"],
+      "correct": 1
+    },
+    {
+      "q": "Which word is a causative verb?",
+      "options": ["Make", "Run", "Walk", "Sleep"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the verb in the conditional clause: 'If it rains, we will stay indoors.'",
+      "options": ["rains", "will stay", "indoors", "we"],
+      "correct": 0
+    },
+    {
+      "q": "What is the past tense of 'spring'?",
+      "options": ["sprung", "sprang", "springed", "both a and b are accepted in various dialects"],
+      "correct": 3
+    },
+    {
+      "q": "Identify the verb form in: 'Having finished his work, he went home.'",
+      "options": ["Present participle", "Perfect participle", "Infinitive", "Gerund"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the sentence with correct subject-verb agreement for collective nouns (American English standard):",
+      "options": ["The team is winning the championship.", "The team are winning the championship.", "The team win the championship.", "Team are winning."],
+      "correct": 0
+    },
+    {
+      "q": "What is the past participle of 'fly'?",
+      "options": ["flew", "flown", "flyed", "flying"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the modal verb expressing strong necessity or obligation:",
+      "options": ["Might", "Must", "Could", "Should"],
+      "correct": 1
+    },
+    {
+      "q": "Which verb form completes the sentence correctly: 'She insisted that he ___ present at the meeting.'",
+      "options": ["is", "be", "was", "were"],
+      "correct": 1
+    }
+  ]
+}
