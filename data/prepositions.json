@@ -1,0 +1,306 @@
+{
+  "basic": [
+    {
+      "q": "Choose the correct preposition: 'The cat is ___ the table.'",
+      "options": ["in", "on", "at", "by"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the preposition in the sentence: 'She walked through the door.'",
+      "options": ["walked", "door", "through", "She"],
+      "correct": 2
+    },
+    {
+      "q": "Fill in the blank: 'We live ___ London.'",
+      "options": ["on", "at", "in", "to"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct option: 'The book is ___ my backpack.'",
+      "options": ["in", "on", "under", "all of the above are possible"],
+      "correct": 3
+    },
+    {
+      "q": "Identify the preposition: 'The picture hangs above the fireplace.'",
+      "options": ["hangs", "above", "fireplace", "The"],
+      "correct": 1
+    },
+    {
+      "q": "Complete the sentence: 'He goes to school ___ bus.'",
+      "options": ["in", "on", "by", "with"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct preposition for time: 'My birthday is ___ July.'",
+      "options": ["on", "in", "at", "by"],
+      "correct": 1
+    },
+    {
+      "q": "Find the preposition in: 'The dog ran after the ball.'",
+      "options": ["dog", "ran", "after", "ball"],
+      "correct": 2
+    },
+    {
+      "q": "Fill in the blank: 'The meeting starts ___ 10:00 AM.'",
+      "options": ["in", "on", "at", "by"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct option: 'The keys are ___ the kitchen counter.'",
+      "options": ["in", "on", "at", "under"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the preposition: 'She sat beside her best friend.'",
+      "options": ["sat", "beside", "friend", "best"],
+      "correct": 1
+    },
+    {
+      "q": "Complete the sentence: 'We have a holiday ___ Christmas Day.'",
+      "options": ["in", "at", "on", "by"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct preposition: 'The ball rolled ___ the bed.'",
+      "options": ["under", "in", "at", "on"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the preposition in: 'He jumped into the swimming pool.'",
+      "options": ["jumped", "swimming", "into", "pool"],
+      "correct": 2
+    },
+    {
+      "q": "Fill in the blank: 'I usually study ___ night.'",
+      "options": ["in", "on", "at", "by"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct option: 'The plane flew ___ the clouds.'",
+      "options": ["above", "under", "in", "at"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the preposition: 'The store is across the street.'",
+      "options": ["store", "across", "street", "is"],
+      "correct": 1
+    },
+    {
+      "q": "Complete the sentence: 'She cut the paper ___ scissors.'",
+      "options": ["by", "with", "in", "on"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct preposition: 'He has been waiting ___ Monday.'",
+      "options": ["for", "since", "in", "at"],
+      "correct": 1
+    },
+    {
+      "q": "Find the preposition: 'The painting was made by a famous artist.'",
+      "options": ["painting", "made", "by", "artist"],
+      "correct": 2
+    },
+    {
+      "q": "Fill in the blank: 'We will meet ___ the weekend.'",
+      "options": ["in", "on", "at (or 'on' in American English)", "by"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct option: 'The cat jumped ___ the couch.'",
+      "options": ["off", "in", "at", "with"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the preposition: 'He stood between his parents.'",
+      "options": ["stood", "between", "parents", "his"],
+      "correct": 1
+    },
+    {
+      "q": "Complete the sentence: 'I am afraid ___ spiders.'",
+      "options": ["with", "of", "at", "on"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct preposition: 'The bird flew ___ the window.'",
+      "options": ["through", "on", "at", "in"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the preposition in: 'Please write your name in ink.'",
+      "options": ["write", "name", "in", "ink"],
+      "correct": 2
+    },
+    {
+      "q": "Fill in the blank: 'The shop is close ___ my house.'",
+      "options": ["to", "at", "by", "from"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct option: 'She is good ___ playing the piano.'",
+      "options": ["in", "at", "on", "with"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the preposition: 'The rabbit ran down the hole.'",
+      "options": ["rabbit", "ran", "down", "hole"],
+      "correct": 2
+    },
+    {
+      "q": "Complete the sentence: 'He arrived just ___ time for the show.'",
+      "options": ["in", "on", "at", "by"],
+      "correct": 0
+    }
+  ],
+  "advanced": [
+    {
+      "q": "Choose the correct preposition to complete the dependent preposition phrase: 'Her views are entirely concomitant ___ mine.'",
+      "options": ["with", "to", "for", "from"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the prepositional phrase functioning adverbially in: 'Despite the inclement weather, the match proceeded.'",
+      "options": ["the match proceeded", "Despite the inclement weather", "weather, the match", "inclement weather"],
+      "correct": 1
+    },
+    {
+      "q": "Fill in the blank with the appropriate preposition: 'He abstained ___ voting on the controversial resolution.'",
+      "options": ["from", "against", "out of", "off"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct idiom/preposition combination: 'The project fell ___ due to a lack of funding.'",
+      "options": ["through", "down", "out", "off"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the preposition that functions as part of a phrasal verb vs. a prepositional verb: 'She ran ___ an old friend at the supermarket.'",
+      "options": ["into", "across", "through", "over"],
+      "correct": 0
+    },
+    {
+      "q": "Complete the sentence with the correct pre-positional collocation: 'His argument was predicated ___ false assumptions.'",
+      "options": ["on", "upon", "both a and b", "in"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct option: 'The responsibility rests squarely ___ the committee's shoulders.'",
+      "options": ["on", "with", "upon", "all of the above are acceptable"],
+      "correct": 3
+    },
+    {
+      "q": "Identify the preposition showing agency in a passive structure: 'The manuscript was meticulously translated ___ Latin.'",
+      "options": ["by", "into", "from", "with"],
+      "correct": 1
+    },
+    {
+      "q": "Fill in the blank: 'Compliance ___ company regulations is mandatory for all employees.'",
+      "options": ["with", "to", "for", "in"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct preposition: 'She has a natural penchant ___ abstract art.'",
+      "options": ["for", "to", "towards", "with"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the complex preposition in the sentence: 'In lieu of financial compensation, they accepted extra vacation time.'",
+      "options": ["In lieu of", "accepted extra", "time", "they accepted"],
+      "correct": 0
+    },
+    {
+      "q": "Complete the sentence: 'The criminal was fugitive ___ justice for over three years.'",
+      "options": ["from", "of", "against", "with"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct prepositional pairing: 'His success is contingent ___ hard work rather than luck.'",
+      "options": ["on", "upon", "both a and b", "to"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the grammatical role of 'beneath' in: 'Beneath the calm exterior lay a storm of emotions.'",
+      "options": ["Preposition", "Conjunction", "Adverb", "Adjective"],
+      "correct": 0
+    },
+    {
+      "q": "Fill in the blank: 'The CEO was impervious ___ criticism regarding the merger.'",
+      "options": ["to", "against", "with", "from"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct option: 'The novel is loosely patterned ___ historical events.'",
+      "options": ["on", "after", "upon", "all of the above"],
+      "correct": 3
+    },
+    {
+      "q": "Identify the preposition error or correct choice: 'He is proficient ___ coding in Python.'",
+      "options": ["in", "at", "both a and b", "with"],
+      "correct": 2
+    },
+    {
+      "q": "Complete the sentence: 'The lawyer argued that the evidence was inadmissible ___ account of procedural flaws.'",
+      "options": ["on", "by", "in", "with"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct preposition: 'She was engrossed ___ her research paper.'",
+      "options": ["in", "with", "at", "on"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the particle/preposition in the phrasal verb meaning 'to tolerate': 'I cannot put ___ with this incessant noise.'",
+      "options": ["up", "down", "out", "through"],
+      "correct": 0
+    },
+    {
+      "q": "Fill in the blank: 'His findings are antithetical ___ current scientific consensus.'",
+      "options": ["to", "with", "against", "from"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct coordinating/prepositional contrast: 'Differing ___ my colleague, I believe we should expand.'",
+      "options": ["from", "with", "than", "to"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the prepositional phrase acting as a postmodifier in: 'The book on the top shelf belongs to me.'",
+      "options": ["on the top shelf", "belongs to me", "The book", "shelf belongs"],
+      "correct": 0
+    },
+    {
+      "q": "Complete the sentence: 'She harbored a deep animosity ___ her former business partner.'",
+      "options": ["towards (or 'against')", "with", "for", "all a, c are common"],
+      "correct": 3
+    },
+    {
+      "q": "Choose the correct option: 'The policy applies equally ___ all department members.'",
+      "options": ["to", "for", "with", "on"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the prepositional use in: 'Barring any unforeseen complications, the project will finish early.'",
+      "options": ["Preposition (functioning as a participle preposition)", "Conjunction", "Adverb", "Verb"],
+      "correct": 0
+    },
+    {
+      "q": "Fill in the blank: 'He was disillusioned ___ the corporate culture.'",
+      "options": ["with", "by", "both a and b", "from"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct preposition: 'The architecture is reminiscent ___ Gothic cathedrals.'",
+      "options": ["of", "to", "with", "from"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the correct preposition for distribution: 'The tickets are distributed ___ a ratio of two per person.'",
+      "options": ["at", "in", "by", "on"],
+      "correct": 1
+    },
+    {
+      "q": "Complete the sentence: 'She acted independently ___ her supervisors' instructions.'",
+      "options": ["of", "from", "without", "against"],
+      "correct": 0
+    }
+  ]
+}
