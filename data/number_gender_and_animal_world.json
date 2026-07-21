@@ -1,0 +1,306 @@
+{
+  "basic": [
+    {
+      "q": "What is the plural form of the animal 'sheep'?",
+      "options": ["sheeps", "sheep", "sheepes", "shoop"],
+      "correct": 1
+    },
+    {
+      "q": "What is the correct female term for a 'bull'?",
+      "options": ["cow", "bulless", "calf", "mare"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the young one of a 'lion':",
+      "options": ["puppy", "cub", "kitten", "calf"],
+      "correct": 1
+    },
+    {
+      "q": "What is the plural form of 'deer'?",
+      "options": ["deers", "deeres", "deer", "dox"],
+      "correct": 2
+    },
+    {
+      "q": "What is the masculine gender of 'duck'?",
+      "options": ["duck", "goose", "drake", "gander"],
+      "correct": 2
+    },
+    {
+      "q": "What is the baby frog called?",
+      "options": ["fry", "tadpole", "caterpillar", "cub"],
+      "correct": 1
+    },
+    {
+      "q": "What is the plural form of 'mouse' in the animal kingdom?",
+      "options": ["mouses", "mice", "mices", "meece"],
+      "correct": 1
+    },
+    {
+      "q": "What is the female term for a 'rooster'?",
+      "options": ["hen", "chicken", "duck", "goose"],
+      "correct": 0
+    },
+    {
+      "q": "What is the baby of a 'horse' called under one year of age?",
+      "options": ["pony", "foal", "calf", "lamb"],
+      "correct": 1
+    },
+    {
+      "q": "What is the plural form of 'fish' (referring to multiple species or general groups)?",
+      "options": ["fishes", "fishs", "fish", "both a and c"],
+      "correct": 3
+    },
+    {
+      "q": "What is the male term for a 'bee' that does not sting?",
+      "options": ["drone", "worker", "queen", "king"],
+      "correct": 0
+    },
+    {
+      "q": "What is the young one of a 'dog' called?",
+      "options": ["kitten", "cub", "puppy", "calf"],
+      "correct": 2
+    },
+    {
+      "q": "What is the plural form of 'ox'?",
+      "options": ["oxes", "oxen", "oxs", "ox"],
+      "correct": 1
+    },
+    {
+      "q": "What is the female of a 'lion'?",
+      "options": ["lioness", "lion", "tigress", "cub"],
+      "correct": 0
+    },
+    {
+      "q": "What is the baby of a 'cat' called?",
+      "options": ["puppy", "kitten", "cub", "calf"],
+      "correct": 1
+    },
+    {
+      "q": "What is the plural form of 'goose'?",
+      "options": ["gooses", "geese", "goos", "geeses"],
+      "correct": 1
+    },
+    {
+      "q": "What is the male term for a 'goose'?",
+      "options": ["gander", "drake", "rooster", "stag"],
+      "correct": 0
+    },
+    {
+      "q": "What is the young one of a 'cow' called?",
+      "options": ["calf", "pup", "foal", "lamb"],
+      "correct": 0
+    },
+    {
+      "q": "What is the plural form of 'wolf'?",
+      "options": ["wolfs", "wolves", "wolfes", "woulvs"],
+      "correct": 1
+    },
+    {
+      "q": "What is the female of a 'tiger'?",
+      "options": ["tigeress", "tigress", "tiger", "tigrina"],
+      "correct": 1
+    },
+    {
+      "q": "What is the young one of a 'sheep' called?",
+      "options": ["lamb", "kid", "calf", "fawn"],
+      "correct": 0
+    },
+    {
+      "q": "What is the plural form of 'butterfly'?",
+      "options": ["butterflys", "butterflis", "butterflies", "butterfly"],
+      "correct": 2
+    },
+    {
+      "q": "What is the male term for a 'deer'?",
+      "options": ["stag", "doe", "hind", "buck"],
+      "correct": 3
+    },
+    {
+      "q": "What is the baby of a 'bear' called?",
+      "options": ["cub", "pup", "kit", "calf"],
+      "correct": 0
+    },
+    {
+      "q": "What is the plural form of 'monkey'?",
+      "options": ["monkies", "monkeys", "monkeis", "monke"],
+      "correct": 1
+    },
+    {
+      "q": "What is the female of a 'fox'?",
+      "options": ["vixen", "foxess", "doe", "mare"],
+      "correct": 0
+    },
+    {
+      "q": "What is the young one of a 'kangaroo' called?",
+      "options": ["joey", "cub", "pup", "calf"],
+      "correct": 0
+    },
+    {
+      "q": "What is the plural form of 'tooth' in animal anatomy?",
+      "options": ["tooths", "teeth", "toothes", "teeths"],
+      "correct": 1
+    },
+    {
+      "q": "What is the male term for a 'chicken' (other than rooster)?",
+      "options": ["cock", "gander", "drake", "stag"],
+      "correct": 0
+    },
+    {
+      "q": "What is the baby of a 'pig' called?",
+      "options": ["piglet", "pigling", "shoat", "all of the above"],
+      "correct": 3
+    }
+  ],
+  "advanced": [
+    {
+      "q": "What is the collective noun for a group of crows?",
+      "options": ["Murder", "Flock", "Pack", "Herd"],
+      "correct": 0
+    },
+    {
+      "q": "What is the correct masculine term for a mature female breeding ferret called a 'jill'?",
+      "options": ["buck", "hob", "tom", "boar"],
+      "correct": 1
+    },
+    {
+      "q": "What is the plural form of 'platypus'?",
+      "options": ["platypuses", "platypi", "platypus", "all are acceptable"],
+      "correct": 3
+    },
+    {
+      "q": "What is the specific term for a female rabbit?",
+      "options": ["doe", "hind", "ewew", "cow"],
+      "correct": 0
+    },
+    {
+      "q": "What is the young one of an eagle called?",
+      "options": ["eaglet", "chick", "fledgling", "all of the above"],
+      "correct": 3
+    },
+    {
+      "q": "What is the plural form of 'mongoose'?",
+      "options": ["mongooses", "mongoose", "mongoos", "mongoi"],
+      "correct": 0
+    },
+    {
+      "q": "What is the term for a castrated male horse?",
+      "options": ["stallion", "gelding", "colt", "mare"],
+      "correct": 1
+    },
+    {
+      "q": "What is the collective noun for a group of whales?",
+      "options": ["Pod", "School", "Herd", "Pack"],
+      "correct": 0
+    },
+    {
+      "q": "What is the female term for a 'stag' or 'buck' (red deer)?",
+      "options": ["hind", "doe", "both a and b depending on species/age", "vixen"],
+      "correct": 2
+    },
+    {
+      "q": "What is the plural form of 'rhinoceros'?",
+      "options": ["rhinoceroses", "rhinoceri", "rhinoceros", "all of the above"],
+      "correct": 3
+    },
+    {
+      "q": "What is the male term for a 'swan'?",
+      "options": ["cob", "pen", "cygnet", "drake"],
+      "correct": 0
+    },
+    {
+      "q": "What is the young of a swan called?",
+      "options": ["cygnet", "gosling", "duckling", "fawn"],
+      "correct": 0
+    },
+    {
+      "q": "What is the plural form of 'octopus'?",
+      "options": ["octopuses", "octopi", "octopodes", "all of the above"],
+      "correct": 3
+    },
+    {
+      "q": "What is the female term for a whale or elephant?",
+      "options": ["cow", "bull", "mare", "hind"],
+      "correct": 0
+    },
+    {
+      "q": "What is the collective noun for a group of owls?",
+      "options": ["Parliament", "Assembly", "Tower", "Gaggle"],
+      "correct": 0
+    },
+    {
+      "q": "What is the term for a male swine (pig) that has been castrated before reaching maturity?",
+      "options": ["boar", "barrow", "sow", "shoat"],
+      "correct": 1
+    },
+    {
+      "q": "What is the plural form of 'chamois'?",
+      "options": ["chamois", "chamoises", "chamoisi", "chamoix"],
+      "correct": 0
+    },
+    {
+      "q": "What is the female of a 'sturgeon' or large fish?",
+      "options": ["roe", "milter", "spawner", "hake"],
+      "correct": 2
+    },
+    {
+      "q": "What is the young one of an oyster called?",
+      "options": ["spat", "larva", "fry", "tadpole"],
+      "correct": 0
+    },
+    {
+      "q": "What is the plural form of 'buffalo'?",
+      "options": ["buffalos", "buffaloes", "buffalo", "all of the above"],
+      "correct": 3
+    },
+    {
+      "q": "What is the male term for a 'turkey'?",
+      "options": ["tom", "gobbler", "both a and b", "stag"],
+      "correct": 2
+    },
+    {
+      "q": "What is the collective noun for a group of flamingos?",
+      "options": ["Flamboyance", "Colony", "Stand", "All of the above"],
+      "correct": 3
+    },
+    {
+      "q": "What is the plural form of 'louse' (parasitic insect)?",
+      "options": ["louses", "lice", "lise", "lyce"],
+      "correct": 1
+    },
+    {
+      "q": "What is the adult female term for a seal or sea lion?",
+      "options": ["cow", "doe", "vixen", "mare"],
+      "correct": 0
+    },
+    {
+      "q": "What is the young one of a butterfly?",
+      "options": ["caterpillar", "maggot", "grub", "pupa"],
+      "correct": 0
+    },
+    {
+      "q": "What is the plural form of 'hippopotamus'?",
+      "options": ["hippopotamuses", "hippopotami", "hippopotamus", "both a and b"],
+      "correct": 3
+    },
+    {
+      "q": "What is the term for a female sheep before she has her first lamb?",
+      "options": ["ewe", "gimmer", "lamb", "hogget"],
+      "correct": 1
+    },
+    {
+      "q": "What is the collective noun for a group of porcupines?",
+      "options": ["Prickle", "Quill", "Spike", "Hedge"],
+      "correct": 0
+    },
+    {
+      "q": "What is the plural form of 'formula' in biological taxonomy contexts?",
+      "options": ["formulas", "formulae", "both a and b", "formuli"],
+      "correct": 2
+    },
+    {
+      "q": "What is the male term for a 'duck'?",
+      "options": ["drake", "gander", "cob", "stag"],
+      "correct": 0
+    }
+  ]
+}
