@@ -1,0 +1,306 @@
+{
+  "basic": [
+    {
+      "q": "Choose the correct conjunction: 'I like apples ___ I do not like bananas.'",
+      "options": ["and", "but", "because", "or"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the conjunction in the sentence: 'She wants to go, but she is tired.'",
+      "options": ["wants", "go", "but", "tired"],
+      "correct": 2
+    },
+    {
+      "q": "Fill in the blank: 'Do you want tea ___ coffee?'",
+      "options": ["and", "or", "but", "so"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct option: 'He was hungry, ___ he ate a sandwich.'",
+      "options": ["because", "so", "but", "or"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the conjunction: 'I went to the store because I needed milk.'",
+      "options": ["went", "store", "because", "needed"],
+      "correct": 2
+    },
+    {
+      "q": "Complete the sentence: 'Cats can run ___ dogs can bark.'",
+      "options": ["and", "but", "or", "so"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct conjunction: 'It was raining, ___ we stayed indoors.'",
+      "options": ["so", "because", "but", "or"],
+      "correct": 0
+    },
+    {
+      "q": "Find the conjunction in: 'You can have the red toy or the blue toy.'",
+      "options": ["red", "toy", "or", "blue"],
+      "correct": 2
+    },
+    {
+      "q": "Fill in the blank: 'She can sing ___ she cannot dance.'",
+      "options": ["and", "but", "or", "because"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct option: 'I missed the bus ___ I woke up late.'",
+      "options": ["so", "because", "and", "but"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the conjunction: 'Tom and Jerry are good friends.'",
+      "options": ["Tom", "and", "Jerry", "friends"],
+      "correct": 1
+    },
+    {
+      "q": "Complete the sentence: 'Work hard ___ you will fail.'",
+      "options": ["or", "and", "because", "so"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct conjunction: 'He is small ___ he is very strong.'",
+      "options": ["and", "but", "so", "because"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the conjunction in: 'We stayed home because it was snowing.'",
+      "options": ["stayed", "home", "because", "snowing"],
+      "correct": 2
+    },
+    {
+      "q": "Fill in the blank: 'Do your homework ___ go play outside.'",
+      "options": ["and", "but", "because", "or"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct option: 'The water was cold, ___ he did not swim.'",
+      "options": ["because", "so", "or", "but"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the conjunction: 'Is your birthday in May or June?'",
+      "options": ["birthday", "in", "or", "June"],
+      "correct": 2
+    },
+    {
+      "q": "Complete the sentence: 'She studies hard ___ she wants to pass.'",
+      "options": ["because", "but", "so", "or"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct conjunction: 'I tried to open the door, ___ it was locked.'",
+      "options": ["and", "but", "so", "because"],
+      "correct": 1
+    },
+    {
+      "q": "Find the conjunction: 'He likes football and cricket.'",
+      "options": ["likes", "football", "and", "cricket"],
+      "correct": 2
+    },
+    {
+      "q": "Fill in the blank: 'Wear your jacket ___ it is cold outside.'",
+      "options": ["because", "so", "but", "or"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct option: 'She washed her hands ___ ate dinner.'",
+      "options": ["but", "and", "or", "because"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the conjunction: 'He ran fast, but he missed the train.'",
+      "options": ["ran", "fast", "but", "missed"],
+      "correct": 2
+    },
+    {
+      "q": "Complete the sentence: 'You can have juice ___ milk, but not both.'",
+      "options": ["and", "or", "so", "because"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct conjunction: 'The sun set ___ it became dark.'",
+      "options": ["so", "because", "but", "or"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the conjunction in: 'I was tired, so I went to sleep early.'",
+      "options": ["tired", "so", "went", "early"],
+      "correct": 1
+    },
+    {
+      "q": "Fill in the blank: 'She bought a pen ___ a notebook.'",
+      "options": ["or", "and", "but", "so"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct option: 'He didn't study, ___ he failed the test.'",
+      "options": ["because", "so", "but", "or"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the conjunction: 'Will you walk or take the bus?'",
+      "options": ["walk", "or", "take", "bus"],
+      "correct": 1
+    },
+    {
+      "q": "Complete the sentence: 'The baby cried ___ she was hungry.'",
+      "options": ["because", "so", "but", "and"],
+      "correct": 0
+    }
+  ],
+  "advanced": [
+    {
+      "q": "Choose the correct correlative conjunction pair: '___ he works hard, he will not succeed.'",
+      "options": ["Either / or", "Neither / nor", "Unless / (none)", "Both / and"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the subordinating conjunction in: 'Although it was raining, they went for a hike.'",
+      "options": ["raining", "they", "Although", "for"],
+      "correct": 2
+    },
+    {
+      "q": "Fill in the blank with the correct correlative pair: 'He is ___ smart ___ hardworking.'",
+      "options": ["either / or", "not only / but also", "neither / or", "whether / and"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct coordinating conjunction: 'She must apologize, ___ she will be fired.'",
+      "options": ["and", "or", "so", "yet"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the conjunction type for 'unless', 'since', and 'whereas':",
+      "options": ["Coordinating", "Correlative", "Subordinating", "Compound"],
+      "correct": 2
+    },
+    {
+      "q": "Complete the sentence: 'Hardly had I stepped outside ___ it started to pour.'",
+      "options": ["when", "than", "then", "before"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct option: 'No sooner had she arrived ___ the phone rang.'",
+      "options": ["when", "than", "then", "before"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the conjunction in: 'You will not pass the exam unless you study daily.'",
+      "options": ["pass", "exam", "unless", "study"],
+      "correct": 2
+    },
+    {
+      "q": "Fill in the blank: 'She acts ___ she owns the place.'",
+      "options": ["as if", "even though", "so that", "in order that"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct correlative conjunction: '___ you apologize, I will never speak to you again.'",
+      "options": ["Unless", "Because", "Although", "If"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the conjunctive adverb used as a transition: 'It was late; ___, we decided to leave.'",
+      "options": ["however", "therefore", "because", "although"],
+      "correct": 1
+    },
+    {
+      "q": "Complete the sentence: 'He speaks ___ English ___ French fluently.'",
+      "options": ["either / or", "neither / nor", "both / and", "not / but"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct conjunction: 'Take a jacket with you ___ it gets cold at night.'",
+      "options": ["so that", "in case", "although", "unless"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the subordinating conjunction of concession:",
+      "options": ["because", "whereas", "if", "until"],
+      "correct": 1
+    },
+    {
+      "q": "Fill in the blank: '___ he is rich, he is very humble.'",
+      "options": ["Because", "Although", "Unless", "Since"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct pair: '___ the manager ___ the employees agreed on the new policy.'",
+      "options": ["Either / or", "Neither / nor", "Both / and", "Not only / but"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the conjunction in: 'We saved money so that we could buy a house.'",
+      "options": ["saved", "so that", "could", "buy"],
+      "correct": 1
+    },
+    {
+      "q": "Complete the sentence: 'She is ___ intelligent ___ she can solve any puzzle.'",
+      "options": ["so / that", "such / that", "too / to", "as / as"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct option: 'I will support you ___ what happens.'",
+      "options": ["even though", "no matter", "because", "whereas"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the compound conjunction: 'We must finish the project ___ the end of the week.'",
+      "options": ["as soon as", "in order that", "provided that", "Even if"],
+      "correct": 0
+    },
+    {
+      "q": "Fill in the blank: 'He talks ___ he knows everything.'",
+      "options": ["as though", "so that", "even if", "in case"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct coordinating conjunction expressing contrast: 'The weather was stormy, ___ they went sailing anyway.'",
+      "options": ["and", "yet", "so", "or"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the subordinating conjunction of time in: 'Call me as soon as you reach home.'",
+      "options": ["reach", "as soon as", "call", "home"],
+      "correct": 1
+    },
+    {
+      "q": "Complete the sentence: '___ you finish your chores, you cannot play video games.'",
+      "options": ["Until", "Unless", "If", "Because"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct option: 'He didn't only pass the exam, ___ he topped the class.'",
+      "options": ["and also", "but also", "or else", "yet still"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the correlative conjunction error or choice: 'She likes ___ coffee ___ tea.'",
+      "options": ["either / or", "both / nor", "neither / and", "not only / or"],
+      "correct": 0
+    },
+    {
+      "q": "Fill in the blank: 'Keep quiet ___ you will wake the baby.'",
+      "options": ["or", "and", "unless", "so"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct conjunction: '___ it started to rain, we cancelled the picnic.'",
+      "options": ["Because", "Although", "Unless", "Whereas"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the conjunction in: 'Provided that you keep your promise, I will help you.'",
+      "options": ["Provided that", "promise", "help", "keep"],
+      "correct": 0
+    },
+    {
+      "q": "Complete the sentence: 'She practiced intensely ___ she could win the championship.'",
+      "options": ["so that", "even though", "because of", "unless"],
+      "correct": 0
+    }
+  ]
+}
