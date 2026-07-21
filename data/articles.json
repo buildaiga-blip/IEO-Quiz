@@ -1,0 +1,306 @@
+{
+  "basic": [
+    {
+      "q": "Choose the correct article to fill in the blank: 'I saw ___ elephant at the zoo.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 1
+    },
+    {
+      "q": "Which article completes the sentence? 'She has ___ cat and a dog.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 0
+    },
+    {
+      "q": "Fill in the blank: 'Sun rises in ___ east.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct option: 'He wants to be ___ engineer.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the missing article: 'Pass me ___ salt, please.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 2
+    },
+    {
+      "q": "Complete the sentence: 'My mother is ___ teacher.'",
+      "options": ["an", "the", "a", "no article"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct article: 'Is there ___ hospital near here?'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 0
+    },
+    {
+      "q": "Fill in the blank: 'I ate ___ apple for breakfast.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 1
+    },
+    {
+      "q": "Which article is correct? 'She bought ___ new umbrella.'",
+      "options": ["an", "a", "the", "no article"],
+      "correct": 1
+    },
+    {
+      "q": "Choose the correct option: 'He reads ___ book every week.'",
+      "options": ["the", "an", "a", "no article"],
+      "correct": 2
+    },
+    {
+      "q": "Fill in the blank: 'Paris is ___ capital of France.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct article: 'I found ___ one-rupee coin on the floor.'",
+      "options": ["an", "the", "a", "no article"],
+      "correct": 2
+    },
+    {
+      "q": "Complete the sentence: 'She drinks ___ glass of milk daily.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the correct article: 'He is ___ honest man.'",
+      "options": ["a", "the", "an", "no article"],
+      "correct": 2
+    },
+    {
+      "q": "Fill in the blank: 'Look at ___ moon tonight!'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct option: 'They live in ___ big house.'",
+      "options": ["an", "a", "the", "no article"],
+      "correct": 1
+    },
+    {
+      "q": "Complete the sentence: 'I want to eat ___ ice cream.'",
+      "options": ["a", "the", "an", "no article"],
+      "correct": 2
+    },
+    {
+      "q": "Fill in the blank: 'She gave me ___ useful gift.'",
+      "options": ["an", "the", "a", "no article"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct article: 'We played ___ game of football.'",
+      "options": ["an", "the", "a", "no article"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the correct option: 'He is ___ best player on the team.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 2
+    },
+    {
+      "q": "Fill in the blank: 'My uncle is ___ MP (Member of Parliament).'",
+      "options": ["a", "the", "an", "no article"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct article: 'There is ___ fly in my soup!'",
+      "options": ["an", "a", "the", "no article"],
+      "correct": 1
+    },
+    {
+      "q": "Complete the sentence: 'Can you play ___ piano?'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 2
+    },
+    {
+      "q": "Fill in the blank: 'He arrived half ___ hour late.'",
+      "options": ["a", "the", "an", "no article"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct option: 'She wore ___ blue dress to the party.'",
+      "options": ["an", "the", "a", "no article"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the missing article: 'Dog is ___ faithful animal.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 2
+    },
+    {
+      "q": "Fill in the blank: 'Mount Everest is ___ highest peak in the world.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct article: 'I need ___ umbrella because it is raining.'",
+      "options": ["a", "the", "an", "no article"],
+      "correct": 2
+    },
+    {
+      "q": "Complete the sentence: 'She goes to school by ___ bus.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 3
+    },
+    {
+      "q": "Fill in the blank: 'He is ___ European citizen.'",
+      "options": ["an", "the", "a", "no article"],
+      "correct": 2
+    }
+  ],
+  "advanced": [
+    {
+      "q": "Choose the correct option (zero article if none needed): '___ gold is a precious metal.'",
+      "options": ["A", "An", "The", "No article"],
+      "correct": 3
+    },
+    {
+      "q": "Fill in the blank with the correct article: 'She plays ___ guitar very well.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the correct choice: 'He was elected ___ chairman of the committee.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 3
+    },
+    {
+      "q": "Complete the sentence: '___ Pacific Ocean is the largest ocean.'",
+      "options": ["A", "An", "The", "No article"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct option: 'We usually have ___ breakfast at 8 AM.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 3
+    },
+    {
+      "q": "Fill in the blank: 'What ___ beautiful day it is!'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 0
+    },
+    {
+      "q": "Identify the correct article usage: 'He goes to ___ church every Sunday to pray.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 3
+    },
+    {
+      "q": "Complete the sentence: 'My father is in ___ hospital visiting a friend.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct option: '___ more you practice, ___ better you get.'",
+      "options": ["A / a", "The / the", "An / an", "No article / no article"],
+      "correct": 1
+    },
+    {
+      "q": "Fill in the blank: 'She is ___ wiser of the two sisters.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the correct article: 'Man is ___ mortal creature.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 3
+    },
+    {
+      "q": "Complete the sentence: 'They traveled to ___ United States last year.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct option: 'He has been studying in ___ university for three years.'",
+      "options": ["an", "the", "a", "no article"],
+      "correct": 2
+    },
+    {
+      "q": "Fill in the blank: '___ honesty is the best policy.'",
+      "options": ["A", "An", "The", "No article"],
+      "correct": 3
+    },
+    {
+      "q": "Identify the correct option: 'She can speak ___ French fluently.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 3
+    },
+    {
+      "q": "Complete the sentence: '___ rose is a sweet-smelling flower.'",
+      "options": ["A", "An", "The", "No article"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct article: 'He is prone to traveling by ___ air.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 3
+    },
+    {
+      "q": "Fill in the blank: '___ Himalayas lie to the north of India.'",
+      "options": ["A", "An", "The", "No article"],
+      "correct": 2
+    },
+    {
+      "q": "Identify the correct choice: 'She stayed in bed with ___ flu.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 2
+    },
+    {
+      "q": "Complete the sentence: 'It was ___ honor to meet the president.'",
+      "options": ["a", "the", "an", "no article"],
+      "correct": 2
+    },
+    {
+      "q": "Choose the correct option: 'We traveled by ___ train overnight.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 3
+    },
+    {
+      "q": "Fill in the blank: '___ rich should help ___ poor.'",
+      "options": ["A / a", "The / the", "An / an", "No article / no article"],
+      "correct": 1
+    },
+    {
+      "q": "Identify the correct article: 'She plays ___ violin in the orchestra.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 2
+    },
+    {
+      "q": "Complete the sentence: 'He went to prison to visit ___ criminal.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 0
+    },
+    {
+      "q": "Choose the correct option: '___ sun shines brightly in summer.'",
+      "options": ["A", "An", "The", "No article"],
+      "correct": 2
+    },
+    {
+      "q": "Fill in the blank: 'I usually have ___ lunch at noon.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 3
+    },
+    {
+      "q": "Identify the correct usage: 'She is ___ Shakespeare of our times.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 2
+    },
+    {
+      "q": "Complete the sentence: '___ milk is good for your health.'",
+      "options": ["A", "An", "The", "No article"],
+      "correct": 3
+    },
+    {
+      "q": "Choose the correct option: 'He is appointed as ___ principal of the school.'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 3
+    },
+    {
+      "q": "Fill in the blank: 'What kind of ___ bird is that?'",
+      "options": ["a", "an", "the", "no article"],
+      "correct": 3
+    }
+  ]
+}
